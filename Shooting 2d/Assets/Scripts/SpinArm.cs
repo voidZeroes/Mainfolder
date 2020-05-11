@@ -9,6 +9,7 @@ public class SpinArm : MonoBehaviour
     GameObject cannon;
     GameObject bulletGen;//弾の出現場所
     GameObject bulletPrefab;//弾prefab
+    GameObject missilePrefab;//ミサイルプレファブ
     GameObject instance;
     Quaternion rota;//回転量
     private int bulletType= 1;//現在利用可能な弾。
@@ -20,6 +21,7 @@ public class SpinArm : MonoBehaviour
         cannon = GameObject.Find("ArmSpinCore");
         bulletGen = GameObject.Find("BulletGen");
         bulletPrefab = (GameObject)Resources.Load ("Prefab/Bullet");
+        missilePrefab = (GameObject)Resources.Load("Prefab/Missile");
         // ;
         wheelSpinTest = 0;
     }
@@ -66,6 +68,7 @@ public class SpinArm : MonoBehaviour
                     instance = (GameObject)Instantiate(bulletPrefab, bulletGen.transform.position, rota);//弾丸
                     break;
                 case 2:
+                    instance = (GameObject)Instantiate(missilePrefab, bulletGen.transform.position, rota);//味噌
                     break;
         }
             
