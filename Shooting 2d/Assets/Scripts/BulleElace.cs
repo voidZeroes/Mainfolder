@@ -11,6 +11,12 @@ public class BulleElace : MonoBehaviour
 
             collision.gameObject.GetComponent<BulletCnt>().AwakeDestroyFlg();
         }
+        if (collision.gameObject.tag == "Missile")
+        {
+
+            collision.gameObject.GetComponent<BulletCnt>().AwakeDestroyFlg();
+        }
+
 
     }
 }
