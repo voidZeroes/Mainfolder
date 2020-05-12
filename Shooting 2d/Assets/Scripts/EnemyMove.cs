@@ -68,11 +68,15 @@ void Update()
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-                if(collision.gameObject.tag=="Bullet"|| collision.gameObject.tag == "Missile")
+                if(collision.gameObject.tag=="Bullet"|| collision.gameObject.tag == "Missile"
+            ||collision.gameObject.tag == "Boom")
         {
             hp--;
-            collision.gameObject.GetComponent<BulletCnt>().AwakeDestroyFlg();
-            if(hp<=0)
+            if (collision.gameObject.tag != "Boom")//爆発以外(弾直撃)なら
+            {
+                collision.gameObject.GetComponent<BulletCnt>().AwakeDestroyFlg();//弾消し
+            }
+                if (hp<=0)
             {
                 Destroy(this.gameObject, 0.5f);
             }

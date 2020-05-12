@@ -11,6 +11,7 @@ TagManager:
   - Goal
   - Ceiling
   - Missile
+  - Boom
   layers:
   - Default
   - TransparentFX

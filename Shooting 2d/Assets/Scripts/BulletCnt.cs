@@ -11,6 +11,7 @@ public class BulletCnt : MonoBehaviour
     bool bulletAwake;
     bool flg;//生存フラグ
     int bulletType;//弾のタイプ
+    int bulletlife;//弾の残存時間
     GameObject boomPrefab;//爆発
     GameObject instance;//爆発の召喚位置だと思う。そう理解してる
 
@@ -33,6 +34,8 @@ public class BulletCnt : MonoBehaviour
         bulletAwake = true;
         boomPrefab = (GameObject)Resources.Load("Prefab/Boom!");
 
+        bulletlife = 500;
+
        // move =move.normalized;
         
     }
@@ -41,7 +44,11 @@ public class BulletCnt : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        bulletlife--;
+        if(bulletlife<=0)
+        {
+            AwakeDestroyFlg();
+        }
 
         //this.transform.rotation = spin;
         if (bulletAwake)
@@ -52,13 +59,13 @@ public class BulletCnt : MonoBehaviour
         
         //transform.position += new Vector3(move.x/10, move.y/10, 0);
  
-        if (!render.isVisible||flg==true)//画面外に行ったときor何かしらにあたったとき
+        if (!render.isVisible||flg)//画面外に行ったときor何かしらにあたったとき
         {
-            Destroy(this.gameObject);//ｼﾈｪ!
             if(flg&&bulletType==2)//敵に当たってなおかつミサイル？よし爆ぜろ
             {
                 instance= (GameObject)Instantiate(boomPrefab, this.transform.position, this.transform.rotation);
             }
+            Destroy(this.gameObject);//ｼﾈｪ!
         }
     }
 

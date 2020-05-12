@@ -862,3 +862,10 @@ D:\Git\Shooting2d git\Mainfolder\Shooting 2d\obj\Debug\Assembly-CSharp.csproj.Co
 D:\Git\Shooting2d git\Mainfolder\Shooting 2d\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 D:\Git\Shooting2d git\Mainfolder\Shooting 2d\obj\Debug\Assembly-CSharp.dll
 D:\Git\Shooting2d git\Mainfolder\Shooting 2d\obj\Debug\Assembly-CSharp.pdb
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Boo.Lang.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEditor.UI.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEditor.Timeline.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\SimpleAnimationComponent.pdb
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\SimpleAnimationComponent-Editor.pdb
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEditor.UI.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEditor.Timeline.xml
