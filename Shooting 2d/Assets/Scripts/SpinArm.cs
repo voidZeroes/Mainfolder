@@ -69,6 +69,7 @@ public class SpinArm : MonoBehaviour
                     break;
                 case 2:
                     instance = (GameObject)Instantiate(missilePrefab, bulletGen.transform.position, rota);//味噌
+                    instance.GetComponent<BulletCnt>().GetBulletType(bulletType);
                     break;
         }
             

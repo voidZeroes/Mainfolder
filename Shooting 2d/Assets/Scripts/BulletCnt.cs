@@ -10,7 +10,12 @@ public class BulletCnt : MonoBehaviour
     Rigidbody2D rb2;
     bool bulletAwake;
     bool flg;//生存フラグ
-    int bulletType;
+    int bulletType;//弾のタイプ
+    GameObject boomPrefab;//爆発
+    GameObject instance;//爆発の召喚位置だと思う。そう理解してる
+
+
+
     /*  Vector3 back;
     Vector3 forward;
     */
@@ -26,6 +31,8 @@ public class BulletCnt : MonoBehaviour
         render=FindObjectOfType<Renderer>();
         flg = false;
         bulletAwake = true;
+        boomPrefab = (GameObject)Resources.Load("Prefab/Boom!");
+
        // move =move.normalized;
         
     }
@@ -45,9 +52,13 @@ public class BulletCnt : MonoBehaviour
         
         //transform.position += new Vector3(move.x/10, move.y/10, 0);
  
-        if (!render.isVisible||flg==true)//画面外に行ったとき
+        if (!render.isVisible||flg==true)//画面外に行ったときor何かしらにあたったとき
         {
             Destroy(this.gameObject);//ｼﾈｪ!
+            if(flg&&bulletType==2)//敵に当たってなおかつミサイル？よし爆ぜろ
+            {
+                instance= (GameObject)Instantiate(boomPrefab, this.transform.position, this.transform.rotation);
+            }
         }
     }
 
@@ -57,7 +68,10 @@ public class BulletCnt : MonoBehaviour
     }
     //private void OnTriggerEnter2D(Collider2D collision)
     //{
-
+    public void GetBulletType(int type)//発射時に弾のタイプを取得
+    {
+        bulletType = type;
+    }
 
     //    if (collision.gameObject.tag == "Enemy")
     //    {
