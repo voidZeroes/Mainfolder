@@ -7,6 +7,7 @@ public class MovePlayer : MonoBehaviour
     Rigidbody2D rb2;
     bool hitFlg;
     bool jump;//ジャンプ中か否かの判定
+    int lrSelector;//左右判定
 
     float stop;
     // Start is called before the first frame update
@@ -14,7 +15,8 @@ public class MovePlayer : MonoBehaviour
     {
         rb2 = GetComponent<Rigidbody2D>();
         hitFlg = false;
-        stop = 0; 
+        stop = 0;
+        lrSelector = 0;
     }
 
     // Update is called once per frame
@@ -32,7 +34,10 @@ public class MovePlayer : MonoBehaviour
 
         if (Mathf.Abs(xMov) > 0)//入力中
         {
-
+            if(xMov>0)
+            { lrSelector = 1; }
+            else if(xMov<0)
+            { lrSelector = -1; }
             xMov *= 3;
             if(Mathf.Abs(rb2.velocity.x)>10)//速度10以上の時、10に固定する
             {
@@ -57,17 +62,17 @@ public class MovePlayer : MonoBehaviour
             //}
             //xMov = 0;
 
-
+            lrSelector = 0;
             if (jump==false||(hitFlg == true))
             {
 
             if (rb2.velocity.x < 0)//疑似的な逆方向入力で止める
                 {
-                    rb2.velocity = new Vector2(rb2.velocity.x + 1, rb2.velocity.y);
+                    rb2.AddForce(new Vector2(2, 0)); ;
                 }
             if (rb2.velocity.x > 0)
                 {
-                    rb2.velocity = new Vector2(rb2.velocity.x - 1, rb2.velocity.y);
+                    rb2.AddForce(new Vector2(-20 , 0)); ;
                 }
 
                 if (Mathf.Abs(rb2.velocity.x)<1f)//速度が0.1以下なら停止
@@ -80,7 +85,7 @@ public class MovePlayer : MonoBehaviour
         }
 
 
-        rb2.AddForce(new Vector2(xMov, 0));
+        rb2.AddForce(new Vector2(5*lrSelector, 0));
     }
 
     public Vector2 GetPlayerVel()
