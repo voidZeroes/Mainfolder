@@ -5,9 +5,11 @@ using UnityEngine;
 public class MovePlayer : MonoBehaviour
 {
     Rigidbody2D rb2;
-    bool hitFlg;
+    bool hitFlg;//ダメージ
     bool jump;//ジャンプ中か否かの判定
     int lrSelector;//左右判定
+    Vector3 enemyLocal;
+    Vector2 knockBackVec;
 
     float stop;
     // Start is called before the first frame update
@@ -26,7 +28,41 @@ public class MovePlayer : MonoBehaviour
         float xMov = Input.GetAxis("Horizontal");
         float yMov = Input.GetAxis("Vertical");
 
-        if(yMov!=0&&!jump)//ジャンプ処理
+
+        //if(hitFlg)
+        //{
+        //    rb2.velocity = new Vector2(0, 0);
+        //    rb2.velocity = knockBackVec;
+        //    hitFlg = false;
+        //}
+
+        if (hitFlg)//Transformで強引にぶっ飛ばすようにしますた
+        {
+            rb2.velocity = new Vector2(0, 0);
+
+            Vector3 pos;
+            pos =new Vector3 (0, 0, 0);
+            if (knockBackVec.x < 0)
+            {
+                pos.x = rb2.transform.position.x- 0.8f;
+                pos.y = rb2.transform.position.y-0.4f;
+            
+            }
+            else if(knockBackVec.x>0)
+            {
+                pos.x = rb2.transform.position.x+ 0.8f;
+                pos.y = rb2.transform.position.y+0.4f;
+            }
+            for (int i=0;i<2;i++)
+            {
+                rb2.transform.position = pos;
+            }
+            hitFlg = false;
+
+        }
+
+
+        if (yMov!=0&&!jump)//ジャンプ処理
         {   rb2.velocity = new Vector2(rb2.velocity.x, 5);
             jump = true;
         }
@@ -113,4 +149,16 @@ public class MovePlayer : MonoBehaviour
     {
        jump = flg;
     }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Enemy")
+        {
+            hitFlg = true;
+            enemyLocal = transform.InverseTransformPoint(collision.transform.position);
+            knockBackVec = new Vector2(this.transform.position.x - enemyLocal.x, this.transform.position.y - enemyLocal.y- 0.3f);//ノックバック方向だと思う
+        }
+
+        }
+
 }
