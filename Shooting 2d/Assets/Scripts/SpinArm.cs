@@ -14,6 +14,8 @@ public class SpinArm : MonoBehaviour
     Quaternion rota;//回転量
     private int bulletType= 1;//現在利用可能な弾。
     public float wheelSpinTest;
+    int rateCont;//射撃レート管理
+
 
 
     void Start()
@@ -24,6 +26,7 @@ public class SpinArm : MonoBehaviour
         missilePrefab = (GameObject)Resources.Load("Prefab/Missile");
         // ;
         wheelSpinTest = 0;
+        rateCont = 0;
     }
 
     // Update is called once per frame
@@ -35,7 +38,11 @@ public class SpinArm : MonoBehaviour
         var rotation = Quaternion.LookRotation(Vector3.forward, Input.mousePosition - pos);//回転量求める
         var genPos = Camera.main.WorldToScreenPoint(bulletGen.transform.localPosition);//弾の発射座標もうごかす
 
+
         var bulletTbuf = Input.GetAxis("Mouse ScrollWheel") * 10;
+
+        rateCont--;//射撃間隔
+
         bulletType +=(int) bulletTbuf;//弾変更　ある数値以上になったら戻すようにしてやればよさそう
         if (bulletType < 1)
         { bulletType = 5; }
@@ -59,17 +66,30 @@ public class SpinArm : MonoBehaviour
         if(Input.GetMouseButtonDown(1))
         {
             rota=rotation;
-            switch (bulletType)
+            switch (bulletType)///撃つ
             {
                 case 0: //けつばん
                     break;
 
                 case 1:
-                    instance = (GameObject)Instantiate(bulletPrefab, bulletGen.transform.position, rota);//弾丸
+                    if (rateCont <= 0)
+                    {
+                        instance = (GameObject)Instantiate(bulletPrefab, bulletGen.transform.position, rota);//弾丸
+
+                        rateCont = GetComponent<Rate_of_Fire>().SetWeaponRate(bulletType);
+                        
+                    }
+                    else { break; }
                     break;
                 case 2:
-                    instance = (GameObject)Instantiate(missilePrefab, bulletGen.transform.position, rota);//味噌
-                    instance.GetComponent<BulletCnt>().GetBulletType(bulletType);
+                    if (rateCont <= 0)
+                    {
+                        instance = (GameObject)Instantiate(missilePrefab, bulletGen.transform.position, rota);//味噌
+                        instance.GetComponent<BulletCnt>().GetBulletType(bulletType);
+                        rateCont = GetComponent<Rate_of_Fire>().SetWeaponRate(bulletType);
+                    }
+                    else { break; }
+
                     break;
         }
             
