@@ -9,8 +9,8 @@ public class Rate_of_Fire : MonoBehaviour
     void Start()
     {
         rateList[0] = 1;//デフォ
-        rateList[0] = 10;//ノーマルショット
-        rateList[0] = 50;//味噌
+        rateList[1] = 10;//ノーマルショット
+        rateList[2] = 30;//味噌
     }
 
     // Update is called once per frame
