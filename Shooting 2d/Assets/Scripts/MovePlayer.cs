@@ -10,6 +10,15 @@ public class MovePlayer : MonoBehaviour
     int lrSelector;//左右判定
     Vector3 enemyLocal;
     Vector2 knockBackVec;
+    int invincible;//無敵時間
+    int inviTime;//無敵時間のデフォ
+    public int inviView;//デバッグ用カウンタ
+    GameObject bodyImage;//shadowBodyの仕舞いどころさん
+    GameObject armImg;//アームキャノンの仕舞いどころさん
+
+
+    float life;
+    float maxlife;
 
     float stop;
     // Start is called before the first frame update
@@ -19,11 +28,38 @@ public class MovePlayer : MonoBehaviour
         hitFlg = false;
         stop = 0;
         lrSelector = 0;
+        invincible = 0;
+        inviTime = 100;
+        inviView = 0;
+        maxlife = 99;
+        life = 99;
+
+        bodyImage = transform.Find("BodyImage").gameObject;
+        armImg = transform.Find("ArmSpinCore").gameObject.transform.Find("ShadowArm").gameObject;
+
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        invincible--;//無敵時間減算
+        inviView = invincible;
+
+        if(invincible>0)//被弾時点滅
+        {
+            var level = Mathf.Abs(Mathf.Sin(Time.time * 60));//乗算値は時間内の点滅数
+            bodyImage.GetComponent<SpriteRenderer>().color = new Color(1f,1f,1f,level);
+            armImg.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, level);
+
+        }
+        else
+        {
+
+            bodyImage.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+            armImg.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+        }
+
 
         float xMov = Input.GetAxis("Horizontal");
         float yMov = Input.GetAxis("Vertical");
@@ -38,24 +74,31 @@ public class MovePlayer : MonoBehaviour
 
         if (hitFlg)//Transformで強引にぶっ飛ばすようにしますた
         {
-            rb2.velocity = new Vector2(0, 0);
+            if (invincible <= 0)//カウントゼロ後にぶっ飛ぶ処理とライフ減少
+            {
+                life -= 1;//仮の減少値
+                rb2.velocity = new Vector2(0, 0);
 
-            Vector3 pos;
-            pos =new Vector3 (0, 0, 0);
-            if (knockBackVec.x < 0)
-            {
-                pos.x = rb2.transform.position.x- 0.8f;
-                pos.y = rb2.transform.position.y-0.4f;
-            
-            }
-            else if(knockBackVec.x>0)
-            {
-                pos.x = rb2.transform.position.x+ 0.8f;
-                pos.y = rb2.transform.position.y+0.4f;
-            }
-            for (int i=0;i<2;i++)
-            {
-                rb2.transform.position = pos;
+                Vector3 pos;
+                pos = new Vector3(0, 0, 0);
+                if (knockBackVec.x < 0)
+                {
+                    pos.x = rb2.transform.position.x - 0.8f;
+                    pos.y = rb2.transform.position.y - 0.4f;
+
+                }
+                else if (knockBackVec.x > 0)
+                {
+                    pos.x = rb2.transform.position.x + 0.8f;
+                    pos.y = rb2.transform.position.y + 0.4f;
+                }
+                for (int i = 0; i < 2; i++)
+                {
+                    rb2.transform.position = pos;
+                }
+
+
+                invincible = inviTime;
             }
             hitFlg = false;
 
