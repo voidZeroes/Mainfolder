@@ -81,13 +81,13 @@ public class MovePlayer : MonoBehaviour
 
                 Vector3 pos;
                 pos = new Vector3(0, 0, 0);
-                if (knockBackVec.x < 0)
+                if (knockBackVec.x < 0)//←
                 {
                     pos.x = rb2.transform.position.x - 0.8f;
                     pos.y = rb2.transform.position.y - 0.4f;
 
                 }
-                else if (knockBackVec.x > 0)
+                else if (knockBackVec.x > 0)//→
                 {
                     pos.x = rb2.transform.position.x + 0.8f;
                     pos.y = rb2.transform.position.y + 0.4f;
@@ -147,14 +147,14 @@ public class MovePlayer : MonoBehaviour
 
             if (rb2.velocity.x < 0)//疑似的な逆方向入力で止める
                 {
-                    rb2.AddForce(new Vector2(2, 0)); ;
-                }
+                    rb2.AddForce(new Vector2(20, 0)); ;
+                }else
             if (rb2.velocity.x > 0)
                 {
                     rb2.AddForce(new Vector2(-20 , 0)); ;
                 }
 
-                if (Mathf.Abs(rb2.velocity.x)<1f)//速度が0.1以下なら停止
+                if (Mathf.Abs(rb2.velocity.x)<0.5f)//速度が0.1以下なら停止
                 {
                     rb2.velocity = new Vector2(0, rb2.velocity.y);
                 }

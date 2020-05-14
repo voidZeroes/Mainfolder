@@ -16,6 +16,7 @@ public class SpinArm : MonoBehaviour
     public float wheelSpinTest;
     int rateCont;//射撃レート管理
 
+    public float rotaCheck;
 
 
     void Start()
@@ -27,6 +28,7 @@ public class SpinArm : MonoBehaviour
         // ;
         wheelSpinTest = 0;
         rateCont = 0;
+        rotaCheck = 0;
     }
 
     // Update is called once per frame
@@ -47,20 +49,23 @@ public class SpinArm : MonoBehaviour
         if (bulletType < 1)
         { bulletType = 5; }
         if (bulletType > 5) bulletType = 1;
+
+
         //Rotationｙ0以上以下でBody+αの方向変更
         if (rotation.z<0)
         {
             scale.x = 1;
             thisScale.y =3;
         }
-        else if(rotation.z>0)
+        else if(rotation.z>0.9995)
         {
             scale.x = -1;
             thisScale.y = -3;
         }
         this.transform.GetChild(1).localScale = scale;//変更
         this.transform.GetChild(0).GetChild(0).localScale = thisScale;//反映;
-            
+        rotaCheck = rotation.z;
+        
         cannon.transform.localRotation = rotation;//回転ッ！
         bulletVec = genPos -pos;//弾の発射方向
         if(Input.GetMouseButtonDown(1))
