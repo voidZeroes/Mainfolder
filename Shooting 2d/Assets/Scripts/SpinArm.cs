@@ -15,6 +15,7 @@ public class SpinArm : MonoBehaviour
     private int bulletType= 1;//現在利用可能な弾。
     public float wheelSpinTest;
     int rateCont;//射撃レート管理
+    bool forLR;
 
     public float rotaCheck;
 
@@ -29,6 +30,8 @@ public class SpinArm : MonoBehaviour
         wheelSpinTest = 0;
         rateCont = 0;
         rotaCheck = 0;
+
+        forLR=true;
     }
 
     // Update is called once per frame
@@ -52,15 +55,17 @@ public class SpinArm : MonoBehaviour
 
 
         //Rotationｙ0以上以下でBody+αの方向変更
-        if (rotation.z<0)
+        if (rotation.z<0.02)
         {
             scale.x = 1;
             thisScale.y =3;
+            forLR = true;
         }
-        else if(rotation.z>0.9995)
+        else if(rotation.z>0.9995&&rotation.z>0.02)//後ろ
         {
             scale.x = -1;
             thisScale.y = -3;
+            forLR = false;
         }
         this.transform.GetChild(1).localScale = scale;//変更
         this.transform.GetChild(0).GetChild(0).localScale = thisScale;//反映;
@@ -121,5 +126,8 @@ public class SpinArm : MonoBehaviour
         return rota;
     }
 
-
+    public bool SetForwardLR()
+    {
+        return forLR;
+    }
 }

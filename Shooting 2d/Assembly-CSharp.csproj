@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Hit.cs" />
     <Compile Include="Assets\Scripts\Landing.cs" />
     <Compile Include="Assets\Scripts\MovePlayer.cs" />
+    <Compile Include="Assets\Scripts\PlayerAnimCont.cs" />
     <Compile Include="Assets\Scripts\Rate_of_Fire.cs" />
     <Compile Include="Assets\Scripts\Reboot.cs" />
     <Compile Include="Assets\Scripts\ScrollCol.cs" />

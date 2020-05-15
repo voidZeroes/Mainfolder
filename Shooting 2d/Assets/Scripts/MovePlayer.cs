@@ -15,6 +15,7 @@ public class MovePlayer : MonoBehaviour
     public int inviView;//デバッグ用カウンタ
     GameObject bodyImage;//shadowBodyの仕舞いどころさん
     GameObject armImg;//アームキャノンの仕舞いどころさん
+    bool forwardLR;//どっち向いてるか
 
 
     float life;
@@ -33,6 +34,7 @@ public class MovePlayer : MonoBehaviour
         inviView = 0;
         maxlife = 99;
         life = 99;
+        forwardLR = true;//t=右　f＝F
 
         bodyImage = transform.Find("BodyImage").gameObject;
         armImg = transform.Find("ArmSpinCore").gameObject.transform.Find("ShadowArm").gameObject;
@@ -59,7 +61,7 @@ public class MovePlayer : MonoBehaviour
             bodyImage.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
             armImg.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
         }
-
+        
 
         float xMov = Input.GetAxis("Horizontal");
         float yMov = Input.GetAxis("Vertical");
@@ -165,6 +167,34 @@ public class MovePlayer : MonoBehaviour
 
 
         rb2.AddForce(new Vector2(5*lrSelector, 0));
+
+        if (GetComponent<SpinArm>().SetForwardLR())//モーション設定のところ。なんでかぬるぽなう
+        {
+            if (lrSelector > 0)
+            {
+                bodyImage.GetComponent<PlayerAnimCont>().GetLRFlug(1);
+            }
+            else
+            if (lrSelector < 0)
+            {
+                bodyImage.GetComponent<PlayerAnimCont>().GetLRFlug(2);
+            }
+            else { bodyImage.GetComponent<PlayerAnimCont>().GetLRFlug(0); }
+        }
+        if (!GetComponent<SpinArm>().SetForwardLR())
+        {
+            if (lrSelector > 0)
+            {
+                bodyImage.GetComponent<PlayerAnimCont>().GetLRFlug(2);
+            }
+            else
+            if (lrSelector < 0)
+            {
+                bodyImage.GetComponent<PlayerAnimCont>().GetLRFlug(1);
+            }
+            else { bodyImage.GetComponent<PlayerAnimCont>().GetLRFlug(0); }
+        }
+
     }
 
     public Vector2 GetPlayerVel()
