@@ -12,6 +12,8 @@ TagManager:
   - Ceiling
   - Missile
   - Boom
+  - R
+  - L
   layers:
   - Default
   - TransparentFX

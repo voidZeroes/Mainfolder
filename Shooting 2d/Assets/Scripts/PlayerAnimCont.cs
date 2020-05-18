@@ -19,9 +19,9 @@ public class PlayerAnimCont : MonoBehaviour
         flg = 0;
     }
 
-    // Update is called once per frame
- void SetAnim()
+    private void Update()
     {
+
         if (flg == 0)
         {
             anim.SetBool("RightMove", false);
@@ -41,6 +41,11 @@ public class PlayerAnimCont : MonoBehaviour
             anim.SetBool("LeftMove", true);
         }
     }
+
+    // Update is called once per frame
+    //void SetAnim()
+    //{
+    //}
     public void GetLRFlug(int inport)
     {
 

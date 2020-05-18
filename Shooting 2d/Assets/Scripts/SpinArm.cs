@@ -15,7 +15,14 @@ public class SpinArm : MonoBehaviour
     private int bulletType= 1;//現在利用可能な弾。
     public float wheelSpinTest;
     int rateCont;//射撃レート管理
+    bool lrCheck;//専用のヤツから入ったのを制御する
     bool forLR;
+
+    Vector3 pos;
+    Quaternion rotation;
+    Vector3 genPos;
+
+    bool mouseMode;//コントロール方法の変更　false:パッド　true:マウスモード
 
     public float rotaCheck;
 
@@ -31,6 +38,7 @@ public class SpinArm : MonoBehaviour
         rateCont = 0;
         rotaCheck = 0;
 
+        mouseMode = false;
         forLR=true;
     }
 
@@ -39,10 +47,19 @@ public class SpinArm : MonoBehaviour
     {
         Vector3 scale=this.transform.GetChild(1).localScale;//ボディ向き変更
         Vector3 thisScale = this.transform.GetChild(0).GetChild(0).localScale;//アームキャノン向き変更
-        var pos = Camera.main.WorldToScreenPoint(transform.localPosition);//ローカル座標を画面座標へ変換
-        var rotation = Quaternion.LookRotation(Vector3.forward, Input.mousePosition - pos);//回転量求める
-        var genPos = Camera.main.WorldToScreenPoint(bulletGen.transform.localPosition);//弾の発射座標もうごかす
 
+        if (mouseMode)
+        {
+            pos = Camera.main.WorldToScreenPoint(transform.localPosition);//ローカル座標を画面座標へ変換
+            rotation = Quaternion.LookRotation(Vector3.forward, Input.mousePosition - pos);//回転量求める
+            genPos = Camera.main.WorldToScreenPoint(bulletGen.transform.localPosition);//弾の発射座標もうごかす
+        }
+        if(!mouseMode)
+        {
+            pos = Camera.main.WorldToScreenPoint(transform.localPosition);//ローカル座標を画面座標へ変換
+            rotation = Quaternion.Euler(0, 0, 90);
+            genPos = Camera.main.WorldToScreenPoint(bulletGen.transform.localPosition);//弾の発射座標もうごかす
+        }
 
         var bulletTbuf = Input.GetAxis("Mouse ScrollWheel") * 10;
 
@@ -54,19 +71,21 @@ public class SpinArm : MonoBehaviour
         if (bulletType > 5) bulletType = 1;
 
 
-        //Rotationｙ0以上以下でBody+αの方向変更
-        if (rotation.z<0.02)
+
+
+        if (CalcLR())//前
         {
             scale.x = 1;
             thisScale.y =3;
             forLR = true;
         }
-        else if(rotation.z>0.9995&&rotation.z>0.02)//後ろ
+        else if(!CalcLR())//後ろ
         {
             scale.x = -1;
             thisScale.y = -3;
             forLR = false;
         }
+
         this.transform.GetChild(1).localScale = scale;//変更
         this.transform.GetChild(0).GetChild(0).localScale = thisScale;//反映;
         rotaCheck = rotation.z;
@@ -76,7 +95,8 @@ public class SpinArm : MonoBehaviour
         if(Input.GetMouseButtonDown(1))
         {
             rota=rotation;
-            switch (bulletType)///撃つ
+
+            switch (bulletType)///撃つ弾の変更
             {
                 case 0: //けつばん
                     break;
@@ -125,6 +145,20 @@ public class SpinArm : MonoBehaviour
     {
         return rota;
     }
+
+
+    private bool CalcLR()
+    {
+        var check = this.transform.Find("ArmSpinCore").gameObject.transform.Find("BulletGen").gameObject;
+        if (this.transform.position.x < check.transform.position.x)
+        { return true; }
+        else if (this.transform.position.x > check.transform.position.x)
+        {
+            return false;
+        }
+        else return true;
+    }
+
 
     public bool SetForwardLR()
     {

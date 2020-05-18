@@ -108,7 +108,7 @@ public class MovePlayer : MonoBehaviour
 
 
         if (yMov!=0&&!jump)//ジャンプ処理
-        {   rb2.velocity = new Vector2(rb2.velocity.x, 5);
+        {   rb2.velocity = new Vector2(rb2.velocity.x, 10);
             jump = true;
         }
 
