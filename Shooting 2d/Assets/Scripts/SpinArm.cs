@@ -22,8 +22,6 @@ public class SpinArm : MonoBehaviour
     Quaternion rotation;
     Vector3 genPos;
 
-    bool mouseMode;//コントロール方法の変更　false:パッド　true:マウスモード
-
     public float rotaCheck;
 
 
@@ -37,8 +35,7 @@ public class SpinArm : MonoBehaviour
         wheelSpinTest = 0;
         rateCont = 0;
         rotaCheck = 0;
-
-        mouseMode = false;
+        
         forLR=true;
     }
 
@@ -48,16 +45,17 @@ public class SpinArm : MonoBehaviour
         Vector3 scale=this.transform.GetChild(1).localScale;//ボディ向き変更
         Vector3 thisScale = this.transform.GetChild(0).GetChild(0).localScale;//アームキャノン向き変更
 
-        if (mouseMode)
+        if (this.transform.root.GetComponent<MovePlayer>().SetMouseMode())
         {
             pos = Camera.main.WorldToScreenPoint(transform.localPosition);//ローカル座標を画面座標へ変換
             rotation = Quaternion.LookRotation(Vector3.forward, Input.mousePosition - pos);//回転量求める
             genPos = Camera.main.WorldToScreenPoint(bulletGen.transform.localPosition);//弾の発射座標もうごかす
         }
-        if(!mouseMode)
+        if(!this.transform.root.GetComponent<MovePlayer>().SetMouseMode())
         {
+            
             pos = Camera.main.WorldToScreenPoint(transform.localPosition);//ローカル座標を画面座標へ変換
-            rotation = Quaternion.Euler(0, 0, 90);
+            rotation = Quaternion.Euler(0, 0,45 );
             genPos = Camera.main.WorldToScreenPoint(bulletGen.transform.localPosition);//弾の発射座標もうごかす
         }
 
@@ -159,7 +157,28 @@ public class SpinArm : MonoBehaviour
         else return true;
     }
 
+    private int CalcRotation(int inportX, int inportY, bool howLR)
+    {
+        int cal = 0;
 
+        if (inportX > 0 && inportY > 0)
+        {
+            cal = 45;
+        }
+        //if (inportX == 0 && inportY == 0)
+        //{
+        //    cal = 90;
+        //}
+        if (inportX > 0 && inportY < 0)
+        {
+            cal = 135;
+        }
+        if (inportX > 0 && inportY > 0)
+        {
+            cal = 45;
+        }
+        return cal;
+    }
     public bool SetForwardLR()
     {
         return forLR;

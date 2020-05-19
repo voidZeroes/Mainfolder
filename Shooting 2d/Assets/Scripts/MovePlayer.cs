@@ -16,11 +16,17 @@ public class MovePlayer : MonoBehaviour
     GameObject bodyImage;//shadowBodyの仕舞いどころさん
     GameObject armImg;//アームキャノンの仕舞いどころさん
     bool forwardLR;//どっち向いてるか
+    bool mouseMode;//コントロール方法の変更　false:パッド　true:マウスモード
 
 
     float life;
     float maxlife;
 
+
+    float xMov;
+    float yMov;
+    public float rsX;
+    public float rsY;
     float stop;
     // Start is called before the first frame update
     void Start()
@@ -35,6 +41,12 @@ public class MovePlayer : MonoBehaviour
         maxlife = 99;
         life = 99;
         forwardLR = true;//t=右　f＝F
+        mouseMode = false;
+
+        xMov=0;
+        yMov=0;
+        rsX = 0;
+        rsY = 0;
 
         bodyImage = transform.Find("BodyImage").gameObject;
         armImg = transform.Find("ArmSpinCore").gameObject.transform.Find("ShadowArm").gameObject;
@@ -61,10 +73,15 @@ public class MovePlayer : MonoBehaviour
             bodyImage.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
             armImg.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
         }
-        
 
-        float xMov = Input.GetAxis("Horizontal");
-        float yMov = Input.GetAxis("Vertical");
+
+        if (!mouseMode)
+        {
+            xMov = Input.GetAxis("Horizontal");
+            yMov = Input.GetAxis("Vertical");
+            rsX = Input.GetAxis("Horizontal2");
+            rsY = Input.GetAxis("Vertical2");
+        }
 
 
         //if(hitFlg)
@@ -168,32 +185,10 @@ public class MovePlayer : MonoBehaviour
 
         rb2.AddForce(new Vector2(5*lrSelector, 0));
 
-        if (GetComponent<SpinArm>().SetForwardLR())//モーション設定のところ。なんでかぬるぽなう
-        {
-            if (lrSelector > 0)
-            {
-                bodyImage.GetComponent<PlayerAnimCont>().GetLRFlug(1);
-            }
-            else
-            if (lrSelector < 0)
-            {
-                bodyImage.GetComponent<PlayerAnimCont>().GetLRFlug(2);
-            }
-            else { bodyImage.GetComponent<PlayerAnimCont>().GetLRFlug(0); }
-        }
-        if (!GetComponent<SpinArm>().SetForwardLR())
-        {
-            if (lrSelector > 0)
-            {
-                bodyImage.GetComponent<PlayerAnimCont>().GetLRFlug(2);
-            }
-            else
-            if (lrSelector < 0)
-            {
-                bodyImage.GetComponent<PlayerAnimCont>().GetLRFlug(1);
-            }
-            else { bodyImage.GetComponent<PlayerAnimCont>().GetLRFlug(0); }
-        }
+
+
+        SetAnimMouse(lrSelector, GetComponent<SpinArm>().SetForwardLR());//モーション設定
+
 
     }
 
@@ -233,5 +228,47 @@ public class MovePlayer : MonoBehaviour
         }
 
         }
+
+
+    private void SetAnimMouse(int inport,bool inportFlg)
+    {
+        if (inportFlg)//モーション設定のところ。なんでかぬるぽなう
+        {
+            if (inport > 0)
+            {
+                bodyImage.GetComponent<PlayerAnimCont>().GetLRFlug(1);
+            }
+            else
+            if (inport < 0)
+            {
+                bodyImage.GetComponent<PlayerAnimCont>().GetLRFlug(2);
+            }
+            else { bodyImage.GetComponent<PlayerAnimCont>().GetLRFlug(0); }
+        }
+        if (!inportFlg)
+        {
+            if (inport > 0)
+            {
+                bodyImage.GetComponent<PlayerAnimCont>().GetLRFlug(2);
+            }
+            else
+            if (inport < 0)
+            {
+                bodyImage.GetComponent<PlayerAnimCont>().GetLRFlug(1);
+            }
+            else { bodyImage.GetComponent<PlayerAnimCont>().GetLRFlug(0); }
+        }
+
+    }
+
+    private void SetAnimPad()
+    {
+
+    }
+
+    public bool SetMouseMode()
+    {
+        return mouseMode;
+    }
 
 }
