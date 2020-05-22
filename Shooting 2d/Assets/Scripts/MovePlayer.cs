@@ -84,6 +84,7 @@ public class MovePlayer : MonoBehaviour
         }
 
 
+
         //if(hitFlg)
         //{
         //    rb2.velocity = new Vector2(0, 0);
@@ -91,103 +92,22 @@ public class MovePlayer : MonoBehaviour
         //    hitFlg = false;
         //}
 
-        if (hitFlg)//Transformで強引にぶっ飛ばすようにしますた
-        {
-            if (invincible <= 0)//カウントゼロ後にぶっ飛ぶ処理とライフ減少
-            {
-                life -= 1;//仮の減少値
-                rb2.velocity = new Vector2(0, 0);
-
-                Vector3 pos;
-                pos = new Vector3(0, 0, 0);
-                if (knockBackVec.x < 0)//←
-                {
-                    pos.x = rb2.transform.position.x - 0.8f;
-                    pos.y = rb2.transform.position.y - 0.4f;
-
-                }
-                else if (knockBackVec.x > 0)//→
-                {
-                    pos.x = rb2.transform.position.x + 0.8f;
-                    pos.y = rb2.transform.position.y + 0.4f;
-                }
-                for (int i = 0; i < 2; i++)
-                {
-                    rb2.transform.position = pos;
-                }
-
-
-                invincible = inviTime;
-            }
-            hitFlg = false;
-
-        }
-
-
-        if (yMov!=0&&!jump)//ジャンプ処理
-        {   rb2.velocity = new Vector2(rb2.velocity.x, 10);
-            jump = true;
-        }
-
-
-        if (Mathf.Abs(xMov) > 0)//入力中
-        {
-            if(xMov>0)
-            { lrSelector = 1; }
-            else if(xMov<0)
-            { lrSelector = -1; }
-            xMov *= 3;
-            if(Mathf.Abs(rb2.velocity.x)>10)//速度10以上の時、10に固定する
-            {
-                if (rb2.velocity.x > 0)
-                {
-                    rb2.velocity = new Vector2(10, rb2.velocity.y);
-                }
-                else if(rb2.velocity.x<0)
-                {
-                    rb2.velocity = new Vector2(-10, rb2.velocity.y);
-                }
-            }
-        }
-        else//入力してないなら止まれ
-        {
-            //if (rb2.velocity.x < 0)//疑似的な逆方向入力で止める
-            //    xMov = 4;
-            //}
-            //if (rb2.velocity.x > 0)
-            //{
-            //    xMov = -4;
-            //}
-            //xMov = 0;
-
-            lrSelector = 0;
-            if (jump==false||(hitFlg == true))
-            {
-
-            if (rb2.velocity.x < 0)//疑似的な逆方向入力で止める
-                {
-                    rb2.AddForce(new Vector2(20, 0)); ;
-                }else
-            if (rb2.velocity.x > 0)
-                {
-                    rb2.AddForce(new Vector2(-20 , 0)); ;
-                }
-
-                if (Mathf.Abs(rb2.velocity.x)<0.5f)//速度が0.1以下なら停止
-                {
-                    rb2.velocity = new Vector2(0, rb2.velocity.y);
-                }
-            }
-            
-
-        }
-
-
-        rb2.AddForce(new Vector2(5*lrSelector, 0));
+        KnockBack();//ノックバック
 
 
 
-        SetAnimMouse(lrSelector, GetComponent<SpinArm>().SetForwardLR());//モーション設定
+
+        MovingUnit();//移動系
+
+
+        rb2.AddForce(new Vector2(20*lrSelector, 0));
+
+        this.GetComponent<SpinArm>().GetInport(lrSelector);
+
+        SetAnimMouse(lrSelector, GetComponent<SpinArm>().SetForwardLR());//モーション設定(マウス)
+
+        this.GetComponent<SpinArm>().CalcRotation(rsX,rsY);
+        SetAnimPad();
 
 
     }
@@ -261,12 +181,121 @@ public class MovePlayer : MonoBehaviour
 
     }
 
-    private void SetAnimPad()
+    private void MovingUnit()
     {
+        if (yMov != 0 && !jump)//ジャンプ処理
+        { rb2.velocity = new Vector2(rb2.velocity.x, 10);
+            jump = true;
+        }
+
+
+        if (Mathf.Abs(xMov) > 0)//入力中
+        {
+            if (xMov > 0)
+            {
+                lrSelector = 1;
+            }
+            else if (xMov < 0)
+            {
+                lrSelector = -1;
+            }
+            xMov *= 3;
+            if (Mathf.Abs(rb2.velocity.x) > 10)//速度10以上の時、10に固定する
+            {
+                if (rb2.velocity.x > 0)
+                {
+                    rb2.velocity = new Vector2(10, rb2.velocity.y);
+                }
+                else if (rb2.velocity.x < 0)
+                {
+                    rb2.velocity = new Vector2(-10, rb2.velocity.y);
+                }
+            }
+        }
+        else//入力してないなら止まれ
+        {
+            //if (rb2.velocity.x < 0)//疑似的な逆方向入力で止める
+            //    xMov = 4;
+            //}
+            //if (rb2.velocity.x > 0)
+            //{
+            //    xMov = -4;
+            //}
+            //xMov = 0;
+
+            lrSelector = 0;
+            if (jump == false || (hitFlg == true))
+            {
+
+                if (rb2.velocity.x < 0)//疑似的な逆方向入力で止める
+                {
+                    rb2.AddForce(new Vector2(20, 0)); ;
+                }
+                else
+                if (rb2.velocity.x > 0)
+                {
+                    rb2.AddForce(new Vector2(-20, 0)); ;
+                }
+
+                if (Mathf.Abs(rb2.velocity.x) < 0.5f)//速度が0.1以下なら停止
+                {
+                    rb2.velocity = new Vector2(0, rb2.velocity.y);
+                }
+            }
+
+        }
+    }
+
+        private void SetAnimPad()
+    {
+        if(xMov == 0)
+        {
+            if(GetComponent<SpinArm>().SetForwardLR())
+            {
+                bodyImage.GetComponent<PlayerAnimCont>().GetLRFlug(0);
+            }
+        }
+
 
     }
 
-    public bool SetMouseMode()
+    private void KnockBack()
+    {
+
+        if (hitFlg)//Transformで強引にぶっ飛ばすようにしますた
+        {
+            if (invincible <= 0)//カウントゼロ後にぶっ飛ぶ処理とライフ減少
+            {
+                life -= 1;//仮の減少値
+                rb2.velocity = new Vector2(0, 0);
+
+                Vector3 pos;
+                pos = new Vector3(0, 0, 0);
+                if (knockBackVec.x < 0)//←
+                {
+                    pos.x = rb2.transform.position.x - 0.8f;
+                    pos.y = rb2.transform.position.y - 0.4f;
+
+                }
+                else if (knockBackVec.x > 0)//→
+                {
+                    pos.x = rb2.transform.position.x + 0.8f;
+                    pos.y = rb2.transform.position.y + 0.4f;
+                }
+                for (int i = 0; i < 2; i++)
+                {
+                    rb2.transform.position = pos;
+                }
+
+
+                invincible = inviTime;
+            }
+            hitFlg = false;
+
+        }
+    }
+
+        public bool SetMouseMode()
     {
         return mouseMode;
     }

@@ -18,9 +18,15 @@ public class SpinArm : MonoBehaviour
     bool lrCheck;//専用のヤツから入ったのを制御する
     bool forLR;
 
+    bool newLR;//今どっちに進んでたか
+    bool oldLR;
+    int moveCheck;//今動いてるか
+
+
     Vector3 pos;
     Quaternion rotation;
     Vector3 genPos;
+    int radian;//パッド操作で腕が向く方向
 
     public float rotaCheck;
 
@@ -35,8 +41,11 @@ public class SpinArm : MonoBehaviour
         wheelSpinTest = 0;
         rateCont = 0;
         rotaCheck = 0;
-        
+        radian = 90;
+
         forLR=true;
+        oldLR = true;
+        newLR =true;
     }
 
     // Update is called once per frame
@@ -55,7 +64,7 @@ public class SpinArm : MonoBehaviour
         {
             
             pos = Camera.main.WorldToScreenPoint(transform.localPosition);//ローカル座標を画面座標へ変換
-            rotation = Quaternion.Euler(0, 0,45 );
+            rotation = Quaternion.Euler(0, 0,radian );
             genPos = Camera.main.WorldToScreenPoint(bulletGen.transform.localPosition);//弾の発射座標もうごかす
         }
 
@@ -71,18 +80,33 @@ public class SpinArm : MonoBehaviour
 
 
 
-        if (CalcLR())//前
+        //if (CalcLRMouse())//前
+        //{
+        //    scale.x = 1;
+        //    thisScale.y =3;
+        //    forLR = true;
+        //}
+        //else if(!CalcLRMouse())//後ろ
+        //{
+        //    scale.x = -1;
+        //    thisScale.y = -3;
+        //    forLR = false;
+        //}
+
+        //見た目の回転
+        if (CalcLRPad())//前
         {
             scale.x = 1;
-            thisScale.y =3;
+            thisScale.y = 3;
             forLR = true;
         }
-        else if(!CalcLR())//後ろ
+        else if (!CalcLRPad())//後ろ
         {
             scale.x = -1;
             thisScale.y = -3;
             forLR = false;
         }
+
 
         this.transform.GetChild(1).localScale = scale;//変更
         this.transform.GetChild(0).GetChild(0).localScale = thisScale;//反映;
@@ -90,7 +114,7 @@ public class SpinArm : MonoBehaviour
         
         cannon.transform.localRotation = rotation;//回転ッ！
         bulletVec = genPos -pos;//弾の発射方向
-        if(Input.GetMouseButtonDown(1))
+        if(FireFlg())
         {
             rota=rotation;
 
@@ -145,42 +169,146 @@ public class SpinArm : MonoBehaviour
     }
 
 
-    private bool CalcLR()
+    private bool CalcLRMouse()//左右反転するやつ
     {
+        bool flg=true;
         var check = this.transform.Find("ArmSpinCore").gameObject.transform.Find("BulletGen").gameObject;
         if (this.transform.position.x < check.transform.position.x)
-        { return true; }
+        { flg= true; }
         else if (this.transform.position.x > check.transform.position.x)
         {
-            return false;
+            flg= false;
         }
-        else return true;
+
+        return flg;
     }
 
-    private int CalcRotation(int inportX, int inportY, bool howLR)
+    public void CalcRotation(float inportX, float inportY)
     {
-        int cal = 0;
+        int cal = radian;
 
-        if (inportX > 0 && inportY > 0)
+        //前
+        if (moveCheck == 0 || moveCheck > 0)
         {
-            cal = 45;
+            if (inportX > 0 && inportY > 0)
+            {
+                cal = 225;
+            }
+            if (inportX > 0 && inportY == 0)
+            {
+                cal = 270;
+            }
+            if (inportX > 0 && inportY < 0)
+            {
+                cal = 315;
+            }
         }
-        //if (inportX == 0 && inportY == 0)
-        //{
-        //    cal = 90;
-        //}
-        if (inportX > 0 && inportY < 0)
+
+        //後ろ
+        if (moveCheck == 0 || moveCheck < 0)
         {
-            cal = 135;
+            if (inportX < 0 && inportY < 0)
+            {
+                cal = 45;
+            }
+            if (inportX < 0 && inportY == 0)
+            {
+                cal = 90;
+            }
+            if (inportX < 0 && inportY > 0)
+            {
+                cal = 135;
+            }
         }
-        if (inportX > 0 && inportY > 0)
+        if (inportX == 0 && inportY> 0)
         {
-            cal = 45;
+            cal =180;
         }
-        return cal;
+        if (inportX == 0 && inportY < 0)
+        {
+            cal = 0;
+        }
+
+        if (inportX == 0 && inportY == 0)
+        {
+            if (newLR)
+            {
+                cal = 270;
+            }
+            else
+            {
+                cal = 90;
+            }
+        }
+
+        radian = cal;
     }
+
+
+    private bool CalcLRPad()//左右反転するやつ
+    {
+        bool flg = true;//どっち向きにするか　True＝前
+        bool oldflg = flg;
+        
+        var check = this.transform.Find("ArmSpinCore").gameObject.transform.Find("BulletGen").gameObject;
+
+        if (moveCheck < 0)
+        {
+            newLR = false;
+            
+        }
+        else if (moveCheck == 0)
+        {
+            newLR = oldLR;
+        }
+        else if (moveCheck > 0)
+        {
+            newLR = true;
+        }
+
+
+        if (this.transform.position.x < check.transform.position.x)
+        {
+            if (!newLR && moveCheck == 0)
+            flg = true;
+
+        }
+
+        if (this.transform.position.x > check.transform.position.x)
+        {
+            if (newLR && moveCheck == 0)
+                flg = false;
+        }
+
+        oldLR = newLR;
+        return flg;
+    }
+
+
+   public void GetInport(int lr)
+    {
+
+        moveCheck = lr;
+
+    }
+    
     public bool SetForwardLR()
     {
         return forLR;
     }
+
+private bool FireFlg()
+    {
+        bool flg = false;
+        if(this.transform.root.GetComponent<MovePlayer>().SetMouseMode())
+        {
+            flg = Input.GetMouseButton(1);
+        }
+        else
+        {
+            flg = Input.GetButtonDown("Fire1");
+        }
+        return flg;
+    }
+
 }
