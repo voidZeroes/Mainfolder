@@ -62,7 +62,7 @@ void Update()
     {
         target = player.GetComponent<MovePlayer>().GetPlayerPos() - rb2.position;
         rb2.velocity = new Vector2(0, 0);
-        rb2.AddForce((dive + target.normalized) * 80);
+        rb2.AddForce((dive + target.normalized) * 800);
         ceil = false;
         
     }

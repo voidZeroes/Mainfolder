@@ -68,7 +68,17 @@ public class SpinArm : MonoBehaviour
             genPos = Camera.main.WorldToScreenPoint(bulletGen.transform.localPosition);//弾の発射座標もうごかす
         }
 
-        var bulletTbuf = Input.GetAxis("Mouse ScrollWheel") * 10;
+        //var bulletTbuf = Input.GetAxis("Mouse ScrollWheel") * 10;
+        var bulletTbuf = 0;
+        //弾の変更
+        if(Input.GetButtonDown("BulletChangePlus"))
+        {
+            bulletTbuf++;
+        }
+        if (Input.GetButtonDown("BulletChangeMinus"))
+        {
+            bulletTbuf--;
+        }
 
         rateCont--;//射撃間隔
 
@@ -122,7 +132,7 @@ public class SpinArm : MonoBehaviour
             {
                 case 0: //けつばん
                     break;
-
+                    
                 case 1:
                     if (rateCont <= 0)
                     {
@@ -188,7 +198,7 @@ public class SpinArm : MonoBehaviour
         int cal = radian;
 
         //前
-        if (moveCheck == 0 || moveCheck > 0)
+        if (moveCheck == 0 || moveCheck > 0&&newLR)
         {
             if (inportX > 0 && inportY > 0)
             {
@@ -205,7 +215,7 @@ public class SpinArm : MonoBehaviour
         }
 
         //後ろ
-        if (moveCheck == 0 || moveCheck < 0)
+        if (moveCheck == 0 || moveCheck < 0&&!newLR)
         {
             if (inportX < 0 && inportY < 0)
             {
@@ -248,14 +258,14 @@ public class SpinArm : MonoBehaviour
     private bool CalcLRPad()//左右反転するやつ
     {
         bool flg = true;//どっち向きにするか　True＝前
-        bool oldflg = flg;
+
         
         var check = this.transform.Find("ArmSpinCore").gameObject.transform.Find("BulletGen").gameObject;
 
         if (moveCheck < 0)
         {
             newLR = false;
-            
+            flg = false;
         }
         else if (moveCheck == 0)
         {
@@ -264,19 +274,19 @@ public class SpinArm : MonoBehaviour
         else if (moveCheck > 0)
         {
             newLR = true;
+            flg = true;
         }
 
 
         if (this.transform.position.x < check.transform.position.x)
         {
-            if (!newLR && moveCheck == 0)
-            flg = true;
-
+            if (moveCheck == 0)
+                flg = true;
         }
 
         if (this.transform.position.x > check.transform.position.x)
         {
-            if (newLR && moveCheck == 0)
+            if ( moveCheck == 0)
                 flg = false;
         }
 

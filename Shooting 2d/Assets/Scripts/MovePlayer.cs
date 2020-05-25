@@ -147,7 +147,14 @@ public class MovePlayer : MonoBehaviour
             knockBackVec = new Vector2(this.transform.position.x - enemyLocal.x, this.transform.position.y - enemyLocal.y- 0.3f);//ノックバック方向だと思う
         }
 
+        if (collision.gameObject.tag == "Ground")
+        {
+                SetJumpFlg(false);
         }
+
+
+
+    }
 
 
     private void SetAnimMouse(int inport,bool inportFlg)
@@ -299,5 +306,9 @@ public class MovePlayer : MonoBehaviour
     {
         return mouseMode;
     }
+
+
+
+
 
 }
