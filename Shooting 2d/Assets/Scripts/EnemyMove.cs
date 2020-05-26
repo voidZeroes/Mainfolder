@@ -14,6 +14,12 @@ public class EnemyMove : MonoBehaviour
 
     bool ceil;
 
+    float waitTime;
+    float wait;
+    int spriteLR;
+    bool jumpFlg;
+    Vector3 thisScaleR;
+    Vector3 thisScaleL;
 
     // Start is called before the first frame update
     void Start()
@@ -24,11 +30,30 @@ public class EnemyMove : MonoBehaviour
         rb2 = GetComponent<Rigidbody2D>();
         player = GameObject.Find("ShadowBody");
         ceil = true;
+
+        waitTime = 2.5f;
+        wait = 0;
+        jumpFlg = false;
+        spriteLR = 1;//1=右向き　-１左向き
+        thisScaleL = this.transform.localScale;
+        thisScaleR = thisScaleL;
+        thisScaleR.x *= -1;
     }
 
     // Update is called once per frame
 void Update()
 {
+        ShiftLR();
+        if(spriteLR==1)
+        {
+            this.transform.localScale = thisScaleR;
+        }
+        else
+        {
+            this.transform.localScale = thisScaleL;
+        }
+        
+
         if (counter <= 0)
         {
             switch (type)
@@ -62,7 +87,7 @@ void Update()
     {
         target = player.GetComponent<MovePlayer>().GetPlayerPos() - rb2.position;
         rb2.velocity = new Vector2(0, 0);
-        rb2.AddForce((dive + target.normalized) * 800);
+        rb2.AddForce((dive + target.normalized) * 200);
         ceil = false;
         
     }
@@ -89,7 +114,7 @@ void Update()
 
                 target = player.GetComponent<MovePlayer>().GetPlayerPos() - rb2.position;
                 rb2.velocity = new Vector2(0, 0);
-                rb2.AddForce((-dive + target.normalized) * 80);
+                rb2.AddForce((-dive + target.normalized) * 200);
             }
         }
 
@@ -105,4 +130,33 @@ void Update()
         }
     }
 
+
+    private void ShiftLR()
+    {
+        wait += Time.deltaTime;
+
+        if (this.transform.position.x > player.transform.position.x)
+        {
+            if (waitTime <= wait)
+            {
+                waitTime = Random.Range(0.5f, 2.5f);
+                wait = 0;
+                jumpFlg = true;
+
+                spriteLR = -1;
+            }
+        }
+        if (this.transform.position.x < player.transform.position.x)
+        {
+            if (waitTime <= wait)
+            {
+                waitTime = Random.Range(0.5f, 2.5f);
+                wait = 0;
+                jumpFlg = true;
+                spriteLR = 1;
+            }
+        }
+
+
+    }
 }
