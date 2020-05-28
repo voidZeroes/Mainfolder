@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\EnemyMove.cs" />
     <Compile Include="Assets\Scripts\Goal.cs" />
     <Compile Include="Assets\Scripts\Hit.cs" />
+    <Compile Include="Assets\Scripts\HPUI.cs" />
     <Compile Include="Assets\Scripts\Landing.cs" />
     <Compile Include="Assets\Scripts\MovePlayer.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimCont.cs" />
