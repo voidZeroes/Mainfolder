@@ -1,0 +1,1159 @@
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Assembly-CSharp.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\mscorlib.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\netstandard.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\nunit.framework.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.AppContext.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Collections.Concurrent.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Collections.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Collections.NonGeneric.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Collections.Specialized.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.ComponentModel.Composition.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.ComponentModel.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.ComponentModel.Primitives.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Console.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Core.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Data.Common.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Data.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Contracts.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Debug.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Process.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Tools.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Tracing.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Drawing.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Drawing.Primitives.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Dynamic.Runtime.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Globalization.Calendars.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Globalization.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Globalization.Extensions.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.IO.Compression.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.IO.Compression.FileSystem.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.IO.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.IO.FileSystem.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.IO.IsolatedStorage.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.IO.Pipes.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Linq.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Linq.Expressions.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Linq.Parallel.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Linq.Queryable.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Net.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Net.Http.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Net.NameResolution.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Net.NetworkInformation.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Net.Ping.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Net.Primitives.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Net.Requests.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Net.Security.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Net.Sockets.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Net.WebSockets.Client.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Net.WebSockets.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Numerics.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Numerics.Vectors.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.ObjectModel.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Reflection.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Reflection.Extensions.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Reflection.Primitives.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Resources.Reader.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Resources.ResourceManager.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Resources.Writer.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Runtime.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Runtime.Extensions.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Runtime.Handles.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Runtime.InteropServices.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Runtime.Numerics.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Security.Claims.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Security.Principal.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Security.SecureString.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.ServiceModel.Web.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Text.Encoding.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Text.RegularExpressions.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Threading.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Threading.Overlapped.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Threading.Tasks.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Threading.Thread.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Threading.ThreadPool.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Threading.Timer.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Transactions.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.ValueTuple.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Web.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Windows.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Xml.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Xml.Linq.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Xml.ReaderWriter.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Xml.Serialization.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Xml.XDocument.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Xml.XmlDocument.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Xml.XmlSerializer.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Xml.XPath.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.Analytics.Editor.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.Analytics.Tracker.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.CollabProxy.Editor.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.Locator.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.TextMeshPro.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEditor.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.Advertisements.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.Advertisements.Editor.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.AIModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.AnimationModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.ARModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.AudioModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.BaselibModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.ClothModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.CoreModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.DirectorModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.GridModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.InputModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.LocalizationModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.ProfilerModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.StreamingModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.TerrainModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.TestRunner.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.TextCoreModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.TilemapModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.Timeline.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.TimelineModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.TLSModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UI.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UIModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UmbraModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UNETModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.VFXModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.VideoModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.VRModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.WindModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.XRModule.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.Cecil.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.DataContract.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\ExCSS.Unity.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.IvyParser.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.CecilTools.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.Cecil.Pdb.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEditor.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.TextMeshPro.pdb
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.AIModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.ARModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.AccessibilityModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.AnimationModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.AudioModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.BaselibModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.ClothModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.CoreModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.CrashReportingModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.DirectorModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.GameCenterModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.GridModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.HotReloadModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.InputModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.LocalizationModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.ParticleSystemModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.ProfilerModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.SpriteMaskModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.SpriteShapeModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.StreamingModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.SubstanceModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.TLSModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.TerrainModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.TextCoreModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.TilemapModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.TimelineModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UIModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UIElementsModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UNETModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UmbraModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.VFXModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.VRModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.VehiclesModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.VideoModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.WindModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.XRModule.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.UI.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.TestRunner.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\nunit.framework.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.Timeline.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.Networking.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
+D:\1816034\Project\Shooting 2d\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\1816034\Project\Shooting 2d\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+D:\1816034\Project\Shooting 2d\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+D:\1816034\Project\Shooting 2d\obj\Debug\Assembly-CSharp.dll
+D:\1816034\Project\Shooting 2d\obj\Debug\Assembly-CSharp.pdb
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Cinemachine.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\com.unity.cinemachine.editor.dll
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\Cinemachine.pdb
+D:\1816034\Project\Shooting 2d\Temp\bin\Debug\com.unity.cinemachine.editor.pdb
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Assembly-CSharp.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Cinemachine.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\com.unity.cinemachine.editor.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\mscorlib.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\netstandard.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\nunit.framework.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.AppContext.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Collections.Concurrent.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Collections.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Collections.NonGeneric.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Collections.Specialized.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.ComponentModel.Composition.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.ComponentModel.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.ComponentModel.Primitives.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Console.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Core.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Data.Common.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Data.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Contracts.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Debug.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Process.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Tools.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Tracing.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Drawing.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Drawing.Primitives.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Dynamic.Runtime.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Globalization.Calendars.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Globalization.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Globalization.Extensions.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.IO.Compression.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.IO.Compression.FileSystem.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.IO.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.IO.FileSystem.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.IO.IsolatedStorage.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.IO.Pipes.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Linq.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Linq.Expressions.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Linq.Parallel.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Linq.Queryable.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Net.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Net.Http.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Net.NameResolution.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Net.NetworkInformation.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Net.Ping.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Net.Primitives.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Net.Requests.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Net.Security.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Net.Sockets.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Net.WebSockets.Client.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Net.WebSockets.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Numerics.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Numerics.Vectors.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.ObjectModel.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Reflection.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Reflection.Extensions.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Reflection.Primitives.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Resources.Reader.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Resources.ResourceManager.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Resources.Writer.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Runtime.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Runtime.Extensions.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Runtime.Handles.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Runtime.InteropServices.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Runtime.Numerics.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Security.Claims.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Security.Principal.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Security.SecureString.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.ServiceModel.Web.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Text.Encoding.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Text.RegularExpressions.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Threading.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Threading.Overlapped.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Threading.Tasks.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Threading.Thread.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Threading.ThreadPool.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Threading.Timer.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Transactions.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.ValueTuple.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Web.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Windows.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Xml.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Xml.Linq.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Xml.ReaderWriter.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Xml.Serialization.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Xml.XDocument.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Xml.XmlDocument.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Xml.XmlSerializer.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Xml.XPath.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.Analytics.Editor.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.Analytics.Tracker.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.CollabProxy.Editor.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.Locator.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.TextMeshPro.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEditor.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.Advertisements.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.Advertisements.Editor.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.AIModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.AnimationModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.ARModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.AudioModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.BaselibModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.ClothModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.CoreModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.DirectorModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.GridModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.InputModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.LocalizationModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.ProfilerModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.StreamingModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.TerrainModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.TestRunner.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.TextCoreModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.TilemapModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.Timeline.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.TimelineModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.TLSModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UI.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UIModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UmbraModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UNETModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.VFXModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.VideoModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.VRModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.WindModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.XRModule.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.Cecil.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.DataContract.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\ExCSS.Unity.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.IvyParser.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.CecilTools.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.Cecil.Pdb.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEditor.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Cinemachine.pdb
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\com.unity.cinemachine.editor.pdb
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.TextMeshPro.pdb
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.AIModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.ARModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.AccessibilityModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.AnimationModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.AudioModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.BaselibModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.ClothModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.CoreModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.CrashReportingModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.DirectorModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.GameCenterModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.GridModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.HotReloadModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.InputModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.LocalizationModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.ParticleSystemModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.ProfilerModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.SpriteMaskModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.SpriteShapeModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.StreamingModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.SubstanceModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.TLSModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.TerrainModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.TextCoreModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.TilemapModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.TimelineModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UIModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UIElementsModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UNETModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UmbraModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.VFXModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.VRModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.VehiclesModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.VideoModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.WindModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.XRModule.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.UI.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.TestRunner.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\nunit.framework.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.Timeline.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.Networking.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
+D:\UnityWorks\Shooting 2d\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
+D:\UnityWorks\Shooting 2d\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\UnityWorks\Shooting 2d\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+D:\UnityWorks\Shooting 2d\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+D:\UnityWorks\Shooting 2d\obj\Debug\Assembly-CSharp.dll
+D:\UnityWorks\Shooting 2d\obj\Debug\Assembly-CSharp.pdb
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Assembly-CSharp.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Cinemachine.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\com.unity.cinemachine.editor.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\mscorlib.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\netstandard.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\nunit.framework.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.AppContext.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Collections.Concurrent.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Collections.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Collections.NonGeneric.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Collections.Specialized.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.ComponentModel.Composition.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.ComponentModel.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.ComponentModel.Primitives.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Console.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Core.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Data.Common.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Data.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Contracts.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Debug.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Process.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Tools.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Tracing.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Drawing.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Drawing.Primitives.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Dynamic.Runtime.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Globalization.Calendars.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Globalization.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Globalization.Extensions.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.Compression.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.Compression.FileSystem.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.FileSystem.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.IsolatedStorage.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.Pipes.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Linq.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Linq.Expressions.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Linq.Parallel.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Linq.Queryable.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.Http.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.NameResolution.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.NetworkInformation.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.Ping.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.Primitives.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.Requests.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.Security.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.Sockets.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.WebSockets.Client.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.WebSockets.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Numerics.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Numerics.Vectors.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.ObjectModel.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Reflection.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Reflection.Extensions.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Reflection.Primitives.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Resources.Reader.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Resources.ResourceManager.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Resources.Writer.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.Extensions.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.Handles.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.InteropServices.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.Numerics.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Security.Claims.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Security.Principal.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Security.SecureString.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.ServiceModel.Web.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Text.Encoding.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Text.RegularExpressions.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Threading.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Threading.Overlapped.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Threading.Tasks.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Threading.Thread.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Threading.ThreadPool.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Threading.Timer.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Transactions.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.ValueTuple.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Web.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Windows.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Xml.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Xml.Linq.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Xml.Serialization.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Xml.XDocument.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Xml.XmlDocument.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Xml.XmlSerializer.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Xml.XPath.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Analytics.Editor.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Analytics.Tracker.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.CollabProxy.Editor.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Locator.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.TextMeshPro.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEditor.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.Advertisements.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.Advertisements.Editor.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AIModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AnimationModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ARModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AudioModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.BaselibModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ClothModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.CoreModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.DirectorModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.GridModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.InputModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.LocalizationModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ProfilerModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.StreamingModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TerrainModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TestRunner.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TextCoreModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TilemapModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.Timeline.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TimelineModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TLSModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UI.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UIModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UmbraModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UNETModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.VFXModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.VideoModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.VRModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.WindModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.XRModule.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Cecil.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.DataContract.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\ExCSS.Unity.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.IvyParser.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.CecilTools.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Cecil.Pdb.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEditor.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Cinemachine.pdb
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\com.unity.cinemachine.editor.pdb
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.TextMeshPro.pdb
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AIModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ARModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AccessibilityModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AnimationModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AudioModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.BaselibModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ClothModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.CoreModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.CrashReportingModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.DirectorModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.GameCenterModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.GridModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.HotReloadModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.InputModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.LocalizationModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ParticleSystemModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ProfilerModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SpriteMaskModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SpriteShapeModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.StreamingModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SubstanceModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TLSModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TerrainModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TextCoreModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TilemapModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TimelineModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UIModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UIElementsModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UNETModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UmbraModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.VFXModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.VRModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.VehiclesModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.VideoModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.WindModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.XRModule.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UI.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TestRunner.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\nunit.framework.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.Timeline.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.Networking.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\obj\Debug\Assembly-CSharp.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\obj\Debug\Assembly-CSharp.pdb
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\Boo.Lang.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEditor.UI.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEditor.Timeline.dll
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\SimpleAnimationComponent.pdb
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\SimpleAnimationComponent-Editor.pdb
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEditor.UI.xml
+D:\Git\Shooting2d git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEditor.Timeline.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Assembly-CSharp.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Cinemachine.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\com.unity.cinemachine.editor.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\mscorlib.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\netstandard.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\nunit.framework.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.AppContext.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Collections.Concurrent.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Collections.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Collections.NonGeneric.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Collections.Specialized.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.ComponentModel.Composition.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.ComponentModel.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.ComponentModel.Primitives.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Console.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Core.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Data.Common.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Data.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Contracts.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Debug.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Process.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Tools.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Diagnostics.Tracing.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Drawing.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Drawing.Primitives.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Dynamic.Runtime.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Globalization.Calendars.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Globalization.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Globalization.Extensions.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.Compression.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.Compression.FileSystem.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.FileSystem.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.IsolatedStorage.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.Pipes.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Linq.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Linq.Expressions.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Linq.Parallel.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Linq.Queryable.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.Http.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.NameResolution.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.NetworkInformation.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.Ping.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.Primitives.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.Requests.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.Security.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.Sockets.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.WebSockets.Client.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Net.WebSockets.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Numerics.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Numerics.Vectors.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.ObjectModel.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Reflection.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Reflection.Extensions.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Reflection.Primitives.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Resources.Reader.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Resources.ResourceManager.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Resources.Writer.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.Extensions.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.Handles.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.InteropServices.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.Numerics.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Security.Claims.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Security.Principal.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Security.SecureString.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.ServiceModel.Web.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Text.Encoding.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Text.RegularExpressions.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Threading.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Threading.Overlapped.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Threading.Tasks.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Threading.Thread.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Threading.ThreadPool.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Threading.Timer.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Transactions.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.ValueTuple.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Web.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Windows.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Xml.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Xml.Linq.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Xml.Serialization.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Xml.XDocument.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Xml.XmlDocument.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Xml.XmlSerializer.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Xml.XPath.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Analytics.Editor.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Analytics.Tracker.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.CollabProxy.Editor.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Locator.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.TextMeshPro.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEditor.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.Advertisements.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.Advertisements.Editor.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AIModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AnimationModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ARModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AudioModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.BaselibModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ClothModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.CoreModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.DirectorModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.GridModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.InputModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.LocalizationModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ProfilerModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.StreamingModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TerrainModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TestRunner.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TextCoreModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TilemapModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.Timeline.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TimelineModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TLSModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UI.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UIModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UmbraModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UNETModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.VFXModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.VideoModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.VRModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.WindModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.XRModule.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Cecil.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.DataContract.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\ExCSS.Unity.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.IvyParser.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.CecilTools.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Cecil.Pdb.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEditor.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Cinemachine.pdb
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\com.unity.cinemachine.editor.pdb
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.TextMeshPro.pdb
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AIModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ARModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AccessibilityModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AnimationModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.AudioModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.BaselibModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ClothModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.CoreModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.CrashReportingModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.DirectorModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.GameCenterModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.GridModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.HotReloadModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.InputModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.LocalizationModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ParticleSystemModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ProfilerModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SpriteMaskModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SpriteShapeModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.StreamingModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SubstanceModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TLSModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TerrainModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TextCoreModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TilemapModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TimelineModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UIModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UIElementsModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UNETModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UmbraModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.VFXModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.VRModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.VehiclesModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.VideoModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.WindModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.XRModule.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.UI.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.TestRunner.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\nunit.framework.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.Timeline.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.Networking.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
+D:\Git\Mainfolder\Shooting 2d\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
+D:\Git\Mainfolder\Shooting 2d\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\Git\Mainfolder\Shooting 2d\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+D:\Git\Mainfolder\Shooting 2d\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+D:\Git\Mainfolder\Shooting 2d\obj\Debug\Assembly-CSharp.dll
+D:\Git\Mainfolder\Shooting 2d\obj\Debug\Assembly-CSharp.pdb
