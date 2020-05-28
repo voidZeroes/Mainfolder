@@ -307,6 +307,10 @@ public class MovePlayer : MonoBehaviour
         return mouseMode;
     }
 
+    public int SetPlayerLife()
+    {
+        return (int)life;
+    }
 
 
 

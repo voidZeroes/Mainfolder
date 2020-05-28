@@ -67,6 +67,9 @@ void Update()
                         BoundMove();
                     }
                      break;
+                case 2:
+
+                    break;
             }
         }
     
@@ -75,7 +78,7 @@ void Update()
   }
 
 
-    private void SearchMove()
+    private void SearchMove()//単純な追尾
     {
         target = player.GetComponent<MovePlayer>().GetPlayerPos() - rb2.position;
         rb2.velocity = new Vector2(0, 0);
@@ -83,7 +86,7 @@ void Update()
         counter = 50;
     }
 
-    private void BoundMove()
+    private void BoundMove()//上空から襲い掛かる動き
     {
         target = player.GetComponent<MovePlayer>().GetPlayerPos() - rb2.position;
         rb2.velocity = new Vector2(0, 0);
@@ -91,6 +94,13 @@ void Update()
         ceil = false;
         
     }
+
+    private void FlogMove()//カエルが跳ねる動き
+    {
+        target = player.GetComponent<MovePlayer>().GetPlayerPos() - rb2.position;
+
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
                 if(collision.gameObject.tag=="Bullet"|| collision.gameObject.tag == "Missile"
