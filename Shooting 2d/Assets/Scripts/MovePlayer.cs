@@ -20,7 +20,7 @@ public class MovePlayer : MonoBehaviour
 
 
     float life;
-    float maxlife;
+    float maxLife;
 
 
     float xMov;
@@ -38,8 +38,8 @@ public class MovePlayer : MonoBehaviour
         invincible = 0;
         inviTime = 100;
         inviView = 0;
-        maxlife = 99;
-        life = 99;
+        maxLife = 1990;
+        life = 1979;
         forwardLR = true;//t=右　f＝F
         mouseMode = false;
 
@@ -108,7 +108,7 @@ public class MovePlayer : MonoBehaviour
 
         this.GetComponent<SpinArm>().CalcRotation(rsX,rsY);
         SetAnimPad();
-
+        this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, -50.22003f);
 
     }
 
@@ -273,7 +273,7 @@ public class MovePlayer : MonoBehaviour
         {
             if (invincible <= 0)//カウントゼロ後にぶっ飛ぶ処理とライフ減少
             {
-                life -= 1;//仮の減少値
+                life -= 15;//仮の減少値
                 rb2.velocity = new Vector2(0, 0);
 
                 Vector3 pos;
@@ -293,7 +293,7 @@ public class MovePlayer : MonoBehaviour
                 {
                     rb2.transform.position = pos;
                 }
-
+                
 
                 invincible = inviTime;
             }
@@ -310,6 +310,10 @@ public class MovePlayer : MonoBehaviour
     public int SetPlayerLife()
     {
         return (int)life;
+    }
+    public int SetPlayerMaxLife()
+    {
+        return (int)maxLife;
     }
 
 
