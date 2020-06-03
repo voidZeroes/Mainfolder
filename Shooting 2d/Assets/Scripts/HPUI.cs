@@ -12,9 +12,11 @@ public class HPUI : MonoBehaviour
     public GameObject player;
     public Text text;
     float offsetX;
+    float offsetY;
     float tankFloat;
     int tankMaxNum;
     int tankNum;
+    int tankOldNum;
     int tankOldMaxNum;
     int playerLife;//総量
 
@@ -30,6 +32,7 @@ public class HPUI : MonoBehaviour
         slider.value = 99;
         tankOldMaxNum = 0;
         offsetX = 25;
+        offsetY = 15;
     }
 
     // Update is called once per frame
@@ -44,46 +47,44 @@ public class HPUI : MonoBehaviour
         text.text = slider.value.ToString();//量をテキストに
 
         if (tankOldMaxNum < tankMaxNum)
-        { 
-        for(int i=0;i< tankMaxNum-tankOldMaxNum;i++)
+        {
+            for (int i = 0; i < tankMaxNum - tankOldMaxNum; i++)
             {
                 var pos = tankPos1.transform.position;
                 pos.x += offsetX * i;
                 pos.z = -10;
-                Instantiate(energyTank, pos,Quaternion.identity,UI.transform);
-                tankOldMaxNum++;
+                if(i>=10)
+                {
+                    pos.x -= offsetX * 10;
+                    pos.y -=offsetY  ;
+                }
+                Instantiate(energyTank, pos, Quaternion.identity, UI.transform.GetChild(1).transform);
+                
             }
+            tankOldMaxNum = tankMaxNum;
         }
 
-//        TankNumの量だけタンクを表示させたい
-//タンク1個目の座標 + Offset量 * TankNumでいいんだろうか
-//↑増加手順ならそれでOK
-//消去を考えたい
+        if (tankNum!=tankOldNum)//タンクが1ｆ前より多いか少ないかしたとき、
+        {
+            for(int i=0;i<tankMaxNum;i++)
+            {
+                if (i <= tankNum)//エネルギー入りなら表示
+                {
+                    UI.transform.GetChild(1).transform.GetChild(i).GetComponent<Image>().color = new Color(1f, 1f, 1f, 1f);
+                }
+                else if(tankMaxNum>=i&&i>tankNum)//そうでないなら透過する
+                {
 
-            //てきとうなObjectの下にぶらさげて、Childのナンバーで管理してみるか ?
+                    UI.transform.GetChild(1).transform.GetChild(i).GetComponent<Image>().color = new Color(0.5f, 0.5f, 0.5f, 1f);
+                }
 
-            //そうじゃん参考元だと取得済みのやつは透過させるだけじゃん。
-            //増えるやつだけ考えればOK
+            }
 
-
-
-            //if(slider.value==-1)
-            //{
-            //    tankFloat = playerLife / 99;
-            //    tankNum =(int)tankFloat;
-
-            //    slider.value = (int)(tankFloat-tankNum)*99;
-            //}
-            //else
-            //{
-            //    slider.value=
-            //}
-            //99以上の体力の時にゲージを1週させたい。
-            //99を割って、その数をストック。下限に達するたびにそれから１減らしてゲージを充填……で大丈夫だろうか。
-            //上限に達したらストックを１増やして、そのあと、99以上の部分をゲージに反映したらいい。
+        }
 
 
 
+        tankOldNum = tankNum;
 
     }
 

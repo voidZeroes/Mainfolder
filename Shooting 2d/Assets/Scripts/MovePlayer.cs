@@ -39,7 +39,7 @@ public class MovePlayer : MonoBehaviour
         inviTime = 100;
         inviView = 0;
         maxLife = 1990;
-        life = 1979;
+        life = 390;
         forwardLR = true;//t=右　f＝F
         mouseMode = false;
 
