@@ -10,7 +10,8 @@ public class HPUI : MonoBehaviour
     public GameObject UI;//UI本体
    public GameObject tankPos1;//設置位置
     public GameObject player;
-    public Text text;
+    public Text hpText;
+    public Text missleText;
     float offsetX;
     float offsetY;
     float tankFloat;
@@ -33,6 +34,8 @@ public class HPUI : MonoBehaviour
         tankOldMaxNum = 0;
         offsetX = 25;
         offsetY = 15;
+        //ここまでHP関連
+        
     }
 
     // Update is called once per frame
@@ -44,7 +47,9 @@ public class HPUI : MonoBehaviour
         tankNum = playerLife / 99;//タンクの量
 
         slider.value = tankFloat;
-        text.text = slider.value.ToString();//量をテキストに
+        hpText.text = slider.value.ToString();//量をテキストに
+
+        missleText.text = player.GetComponent<MovePlayer>().SetMissileAmmo().ToString();
 
         if (tankOldMaxNum < tankMaxNum)
         {

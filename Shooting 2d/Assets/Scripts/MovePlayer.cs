@@ -19,8 +19,12 @@ public class MovePlayer : MonoBehaviour
     bool mouseMode;//コントロール方法の変更　false:パッド　true:マウスモード
 
 
-    float life;
-    float maxLife;
+    float life;//現在体力
+    float maxLife;//最大体力
+
+
+    int missile;
+    int missileMax;
 
 
     float xMov;
@@ -50,6 +54,9 @@ public class MovePlayer : MonoBehaviour
 
         bodyImage = transform.Find("BodyImage").gameObject;
         armImg = transform.Find("ArmSpinCore").gameObject.transform.Find("ShadowArm").gameObject;
+
+        missileMax = 30;
+        missile = missileMax;
 
     }
 
@@ -316,7 +323,13 @@ public class MovePlayer : MonoBehaviour
         return (int)maxLife;
     }
 
+    public int SetMissileAmmo()
+    {
+        return missile;
+    }
 
-
-
+    public void GetMissileAmmo(int minus)
+    {
+        missile-=minus;
+    }
 }
