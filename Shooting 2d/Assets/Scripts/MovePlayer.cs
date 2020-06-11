@@ -64,6 +64,7 @@ public class MovePlayer : MonoBehaviour
     void Update()
     {
 
+
         invincible--;//無敵時間減算
         inviView = invincible;
 
@@ -115,7 +116,7 @@ public class MovePlayer : MonoBehaviour
 
         this.GetComponent<SpinArm>().CalcRotation(rsX,rsY);
         SetAnimPad();
-        this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, -50.22003f);
+     //   this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, -50.22003f);
 
     }
 
