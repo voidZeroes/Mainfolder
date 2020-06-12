@@ -124,7 +124,7 @@ public class SpinArm : MonoBehaviour
         
         cannon.transform.localRotation = rotation;//回転ッ！
         bulletVec = genPos -pos;//弾の発射方向
-        if(FireFlg())
+        if(FireFlg())//ほっしゃん！
         {
             rota=rotation;
 
@@ -134,7 +134,7 @@ public class SpinArm : MonoBehaviour
                     break;
                     
                 case 1:
-                    if (rateCont <= 0)
+                    if (rateCont <= 0)//ノーマルビーム
                     {
                         instance = (GameObject)Instantiate(bulletPrefab, bulletGen.transform.position, rota);//弾丸
 
@@ -143,9 +143,10 @@ public class SpinArm : MonoBehaviour
                     }
                     else { break; }
                     break;
-                case 2:
+                case 2://味噌
                     if (rateCont <= 0)
                     {
+                        if(GetComponent<MovePlayer>().)
                         instance = (GameObject)Instantiate(missilePrefab, bulletGen.transform.position, rota);//味噌
                         instance.GetComponent<BulletCnt>().GetBulletType(bulletType);
                         rateCont = GetComponent<Rate_of_Fire>().SetWeaponRate(bulletType);
@@ -193,7 +194,7 @@ public class SpinArm : MonoBehaviour
         return flg;
     }
 
-    public void CalcRotation(float inportX, float inportY)
+    public void CalcRotation(float inportX, float inportY)//スパメト的AIMをできるようにするもの……だったんだけど正直スティックでやる動きじゃなかった。ぐりぐり動かせるようにする予定
     {
         int cal = radian;
 

@@ -329,8 +329,13 @@ public class MovePlayer : MonoBehaviour
         return missile;
     }
 
-    public void GetMissileAmmo(int minus)
+    public void MissileAmmoMinus(int minus)
     {
         missile-=minus;
+    }
+    public void MissileAmmoPlus(int plus)
+    {
+        missile += plus;
+
     }
 }

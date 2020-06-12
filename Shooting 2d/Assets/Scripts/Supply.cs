@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class Supply : MonoBehaviour
 {
-    int supLifeS=20;
-    int supLifeM = 50;
-    int supLifeL = 100;
+    const int supLifeS=20;
+    const int supLifeM = 50;
+    const int supLifeL = 100;
 
-    int supMisS = 3;
-    int supMisM = 5;
-    int supMisL = 10;
+    const int supMisS = 3;
+    const int supMisM = 5;
+    const int supMisL = 10;
+
+    public GameObject player;
+
+
 
 
     public int GetSupply(int type/*0=ライフ1=味噌*/, int size/*0~2*/)
@@ -43,4 +47,20 @@ public class Supply : MonoBehaviour
         return 0;
             
     }
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            Destroy(this.gameObject);
+            if (this.gameObject.tag == "SupplyM")
+            {
+                this.GetComponent<MovePlayer>().MissileAmmoPlus(GetSupply(1, 1));
+            }
+        
+        }
+
+    }
+
 }
