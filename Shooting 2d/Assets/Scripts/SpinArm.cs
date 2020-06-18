@@ -146,10 +146,16 @@ public class SpinArm : MonoBehaviour
                 case 2://味噌
                     if (rateCont <= 0)
                     {
-                        if(GetComponent<MovePlayer>().)
-                        instance = (GameObject)Instantiate(missilePrefab, bulletGen.transform.position, rota);//味噌
-                        instance.GetComponent<BulletCnt>().GetBulletType(bulletType);
-                        rateCont = GetComponent<Rate_of_Fire>().SetWeaponRate(bulletType);
+                        if (GetComponent<MovePlayer>().SetMissileAmmo() > 0)
+                        {
+                            instance = (GameObject)Instantiate(missilePrefab, bulletGen.transform.position, rota);//味噌
+                            instance.GetComponent<BulletCnt>().GetBulletType(bulletType);
+                            rateCont = GetComponent<Rate_of_Fire>().SetWeaponRate(bulletType);
+                        }
+                        else
+                        {
+                            break;
+                        }
                     }
                     else { break; }
 
