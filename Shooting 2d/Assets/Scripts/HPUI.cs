@@ -32,8 +32,9 @@ public class HPUI : MonoBehaviour
         tankMaxNum = player.GetComponent<MovePlayer>().SetPlayerMaxLife()/99;
         slider.value = 99;
         tankOldMaxNum = 0;
-        offsetX = 25;
-        offsetY = 15;
+        offsetX = energyTank.GetComponent<RectTransform>().sizeDelta.x;
+        
+        offsetY = energyTank.GetComponent<RectTransform>().sizeDelta.y;
         //ここまでHP関連
         
     }
@@ -60,7 +61,7 @@ public class HPUI : MonoBehaviour
                 pos.z = -10;
                 if(i>=10)
                 {
-                    pos.x -= offsetX * 10;
+                    pos.x -= offsetX*10;
                     pos.y -=offsetY  ;
                 }
                 Instantiate(energyTank, pos, Quaternion.identity, UI.transform.GetChild(1).transform);
