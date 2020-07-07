@@ -26,7 +26,7 @@ public class SpinArm : MonoBehaviour
     Vector3 pos;
     Quaternion rotation;
     Vector3 genPos;
-    int radian;//パッド操作で腕が向く方向
+    float radian;//パッド操作で腕が向く方向
 
     public float rotaCheck;
 
@@ -200,69 +200,90 @@ public class SpinArm : MonoBehaviour
         return flg;
     }
 
-    public void CalcRotation(float inportX, float inportY)//スパメト的AIMをできるようにするもの……だったんだけど正直スティックでやる動きじゃなかった。ぐりぐり動かせるようにする予定
+    //public void CalcRotation(float inportX, float inportY)//スパメト的AIMをできるようにするもの……だったんだけど正直スティックでやる動きじゃなかった。ぐりぐり動かせるようにする予定
+    //{
+    //    int cal = radian;
+
+    //    //前
+    //    if (moveCheck == 0 || moveCheck > 0&&newLR)
+    //    {
+    //        if (inportX > 0 && inportY > 0)
+    //        {
+    //            cal = 225;
+    //        }
+    //        if (inportX > 0 && inportY == 0)
+    //        {
+    //            cal = 270;
+    //        }
+    //        if (inportX > 0 && inportY < 0)
+    //        {
+    //            cal = 315;
+    //        }
+    //    }
+
+    //    //後ろ
+    //    if (moveCheck == 0 || moveCheck < 0&&!newLR)
+    //    {
+    //        if (inportX < 0 && inportY < 0)
+    //        {
+    //            cal = 45;
+    //        }
+    //        if (inportX < 0 && inportY == 0)
+    //        {
+    //            cal = 90;
+    //        }
+    //        if (inportX < 0 && inportY > 0)
+    //        {
+    //            cal = 135;
+    //        }
+    //    }
+    //    if (inportX == 0 && inportY> 0)
+    //    {
+    //        cal =180;
+    //    }
+    //    if (inportX == 0 && inportY < 0)
+    //    {
+    //        cal = 0;
+    //    }
+
+    //    if (inportX == 0 && inportY == 0)
+    //    {
+    //        if (newLR)
+    //        {
+    //            cal = 270;
+    //        }
+    //        else
+    //        {
+    //            cal = 90;
+    //        }
+    //    }
+
+    //    radian = cal;
+    //}
+    public void CalcRotation(float inportX, float inportY)//滑らかエイム。テメェ簡単な割に時間かけすぎィ！
     {
-        int cal = radian;
+        float cal = radian;
 
-        //前
-        if (moveCheck == 0 || moveCheck > 0&&newLR)
-        {
-            if (inportX > 0 && inportY > 0)
-            {
-                cal = 225;
-            }
-            if (inportX > 0 && inportY == 0)
-            {
-                cal = 270;
-            }
-            if (inportX > 0 && inportY < 0)
-            {
-                cal = 315;
-            }
-        }
+        Vector3 cont = new Vector3(-inportX, -inportY,0);
 
-        //後ろ
-        if (moveCheck == 0 || moveCheck < 0&&!newLR)
-        {
-            if (inportX < 0 && inportY < 0)
-            {
-                cal = 45;
-            }
-            if (inportX < 0 && inportY == 0)
-            {
-                cal = 90;
-            }
-            if (inportX < 0 && inportY > 0)
-            {
-                cal = 135;
-            }
-        }
-        if (inportX == 0 && inportY> 0)
-        {
-            cal =180;
-        }
-        if (inportX == 0 && inportY < 0)
-        {
-            cal = 0;
-        }
+        
 
-        if (inportX == 0 && inportY == 0)
-        {
-            if (newLR)
-            {
-                cal = 270;
-            }
-            else
-            {
-                cal = 90;
-            }
-        }
+        Debug.Log(cont.x);
+        // Debug.Log(inportY);
 
-        radian = cal;
+        if (cont.x > 0)
+        {
+            cal = Vector3.Angle(transform.up, cont);//これで半分
+        }else if(cont.x<0)
+        { cal = Vector3.Angle(transform.up, -cont)+180; }
+        
+        if (cal != 0)
+        {
+            radian = cal;
+        }
     }
 
-
-    private bool CalcLRPad()//左右反転するやつ
+        private bool CalcLRPad()//左右反転するやつ
     {
         bool flg = true;//どっち向きにするか　True＝前
 

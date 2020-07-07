@@ -36,7 +36,7 @@ public class SpinCannon : MonoBehaviour
 
         rota= Quaternion.Euler(0, 0, radian);
         this.transform.localRotation = rota;
-        if(radian>366)
+        if(radian>360)
         { radian = 0; }
     }
 }
