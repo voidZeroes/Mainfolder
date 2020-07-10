@@ -53,12 +53,11 @@ public class Supply : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            Destroy(this.gameObject);
             if (this.gameObject.tag == "SupplyM")
             {
-                this.GetComponent<MovePlayer>().MissileAmmoPlus(GetSupply(1, 1));
+                GetComponent<MovePlayer>().MissileAmmoPlus(GetSupply(1, 1));
             }
-        
+            Destroy(this.gameObject);
         }
 
     }

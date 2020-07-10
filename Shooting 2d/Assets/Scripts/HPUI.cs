@@ -32,11 +32,11 @@ public class HPUI : MonoBehaviour
         tankMaxNum = player.GetComponent<MovePlayer>().SetPlayerMaxLife()/99;
         slider.value = 99;
         tankOldMaxNum = 0;
-        offsetX = energyTank.GetComponent<RectTransform>().sizeDelta.x;
+        offsetX = energyTank.GetComponent<RectTransform>().sizeDelta.x*(energyTank.GetComponent<RectTransform>().localScale.x/2);
         
-        offsetY = energyTank.GetComponent<RectTransform>().sizeDelta.y;
+        offsetY = energyTank.GetComponent<RectTransform>().sizeDelta.y ;
         //ここまでHP関連
-        
+
     }
 
     // Update is called once per frame
