@@ -26,7 +26,7 @@ public class SpinArm : MonoBehaviour
     Vector3 pos;
     Quaternion rotation;
     Vector3 genPos;
-    int radian;//パッド操作で腕が向く方向
+    float radian;//パッド操作で腕が向く方向
 
     public float rotaCheck;
 
@@ -64,7 +64,7 @@ public class SpinArm : MonoBehaviour
         {
             
             pos = Camera.main.WorldToScreenPoint(transform.localPosition);//ローカル座標を画面座標へ変換
-            //rotation = Quaternion.Euler(0, 0,radian );
+            rotation = Quaternion.Euler(0, 0,radian );
             genPos = Camera.main.WorldToScreenPoint(bulletGen.transform.localPosition);//弾の発射座標もうごかす
         }
 
@@ -201,7 +201,7 @@ public class SpinArm : MonoBehaviour
         return flg;
     }
 
-    ////public void CalcRotation(float inportX, float inportY)//スパメト的AIMをできるようにするもの……だったんだけど正直スティックでやる動きじゃなかった。ぐりぐり動かせるようにする予定
+    //public void CalcRotation(float inportX, float inportY)//スパメト的AIMをできるようにするもの……だったんだけど正直スティックでやる動きじゃなかった。ぐりぐり動かせるようにする予定
     //{
     //    int cal = radian;
 
@@ -261,14 +261,30 @@ public class SpinArm : MonoBehaviour
 
     //    radian = cal;
     //}
-     public void CalcRotation(float inportX, float inportY)//修正版
+    public void CalcRotation(float inportX, float inportY)//滑らかエイム。テメェ簡単な割に時間かけすぎィ！
     {
-        var cal = new Vector3( inportX,0,inportY);
+        float cal = radian;
+
+        Vector3 cont = new Vector3(-inportX, -inportY,0);
+
         
-        rotation = Quaternion.LookRotation(cal);
+
+        Debug.Log(cont.x);
+        // Debug.Log(inportY);
+
+        if (cont.x > 0)
+        {
+            cal = Vector3.Angle(transform.up, cont);//これで半分
+        }else if(cont.x<0)
+        { cal = Vector3.Angle(transform.up, -cont)+180; }
+        
+        if (cal != 0)
+        {
+            radian = cal;
+        }
     }
 
-    private bool CalcLRPad()//左右反転するやつ
+        private bool CalcLRPad()//左右反転するやつ
     {
         bool flg = true;//どっち向きにするか　True＝前
 
