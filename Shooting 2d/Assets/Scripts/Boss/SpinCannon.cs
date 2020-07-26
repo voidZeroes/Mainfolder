@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpinCannon : MonoBehaviour
 {
     public GameObject Target;//プレイヤーの位置
+    public GameObject Laser;
     Vector3 rawAngre;
     float radian;
     float setRadian;
