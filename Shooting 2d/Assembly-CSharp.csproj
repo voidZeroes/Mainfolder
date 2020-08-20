@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\BulletCnt.cs" />
     <Compile Include="Assets\Scripts\EnemyDadaBase.cs" />
     <Compile Include="Assets\Scripts\EnemyMove.cs" />
+    <Compile Include="Assets\Scripts\Gate\GateSystem.cs" />
     <Compile Include="Assets\Scripts\Goal.cs" />
     <Compile Include="Assets\Scripts\HPUI.cs" />
     <Compile Include="Assets\Scripts\Hit.cs" />
