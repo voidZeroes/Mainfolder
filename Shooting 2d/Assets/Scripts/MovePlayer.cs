@@ -107,8 +107,8 @@ public class MovePlayer : MonoBehaviour
 
         MovingUnit();//移動系
 
-
-        rb2.AddForce(new Vector2(20*lrSelector, 0));
+        //移動。
+        rb2.AddForce(new Vector2(10*lrSelector, 0));
 
         this.GetComponent<SpinArm>().GetInport(lrSelector);
 
@@ -229,29 +229,11 @@ public class MovePlayer : MonoBehaviour
         }
         else//入力してないなら止まれ
         {
-            //if (rb2.velocity.x < 0)//疑似的な逆方向入力で止める
-            //    xMov = 4;
-            //}
-            //if (rb2.velocity.x > 0)
-            //{
-            //    xMov = -4;
-            //}
-            //xMov = 0;
 
             lrSelector = 0;
             if (jump == false || (hitFlg == true))
             {
-
-                if (rb2.velocity.x < 0)//疑似的な逆方向入力で止める
-                {
-                    rb2.AddForce(new Vector2(20, 0)); ;
-                }
-                else
-                if (rb2.velocity.x > 0)
-                {
-                    rb2.AddForce(new Vector2(-20, 0)); ;
-                }
-
+//疑似逆入力のつもりだったが、PhysisMaterialの摩擦で止めることに。
                 if (Mathf.Abs(rb2.velocity.x) < 0.5f)//速度が0.1以下なら停止
                 {
                     rb2.velocity = new Vector2(0, rb2.velocity.y);

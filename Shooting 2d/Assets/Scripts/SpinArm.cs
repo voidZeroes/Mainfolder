@@ -269,7 +269,7 @@ public class SpinArm : MonoBehaviour
 
         
 
-        Debug.Log(cont.x);
+
         // Debug.Log(inportY);
 
         if (cont.x > 0)
