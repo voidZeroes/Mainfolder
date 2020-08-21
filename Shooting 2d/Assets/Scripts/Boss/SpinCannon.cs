@@ -53,7 +53,7 @@ public class SpinCannon : MonoBehaviour
 
 
         radian = GetAngle(this.transform.position, Target.transform.position);
-        Debug.Log(radian);
+//        Debug.Log(radian);
         rota = Quaternion.Euler(0, 0, radian);
         this.transform.localRotation = rota;
         if(radian>360)
