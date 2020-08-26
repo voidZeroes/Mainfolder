@@ -8,11 +8,13 @@ public class MovePlayer : MonoBehaviour
     bool hitFlg;//ダメージ
     bool jump;//ジャンプ中か否かの判定
     int lrSelector;//左右判定
+    static float playerSpeed=5;
+
     Vector3 enemyLocal;
     Vector2 knockBackVec;
-    int invincible;//無敵時間
+    float invincible;//無敵時間
     int inviTime;//無敵時間のデフォ
-    public int inviView;//デバッグ用カウンタ
+    public float inviView;//デバッグ用カウンタ
     GameObject bodyImage;//shadowBodyの仕舞いどころさん
     GameObject armImg;//アームキャノンの仕舞いどころさん
 
@@ -41,7 +43,7 @@ public class MovePlayer : MonoBehaviour
         stop = 0;
         lrSelector = 0;
         invincible = 0;
-        inviTime = 100;
+        inviTime = 1;
         inviView = 0;
         maxLife = 1990;
         life = 390;
@@ -65,7 +67,7 @@ public class MovePlayer : MonoBehaviour
     {
 
 
-        invincible--;//無敵時間減算
+        invincible-=Time.deltaTime;//無敵時間減算
         inviView = invincible;
 
         if(invincible>0)//被弾時点滅
@@ -108,7 +110,7 @@ public class MovePlayer : MonoBehaviour
         MovingUnit();//移動系
 
         //移動。
-        rb2.AddForce(new Vector2(10*lrSelector, 0));
+        rb2.AddForce(new Vector2(playerSpeed*lrSelector, 0));
 
         this.GetComponent<SpinArm>().GetInport(lrSelector);
         
@@ -202,7 +204,7 @@ public class MovePlayer : MonoBehaviour
 
     private void MovingUnit()
     {
-        if (yMov != 0 && !jump)//ジャンプ処理
+        if (yMov != 0 && !jump)//ジャンプ処理　ボタン式にするべきだろう。今のままだと誤爆する
         { rb2.velocity = new Vector2(rb2.velocity.x, 10);
             jump = true;
         }
@@ -286,7 +288,7 @@ public class MovePlayer : MonoBehaviour
     private void KnockBack()
     {
 
-        if (hitFlg)//Transformで強引にぶっ飛ばすようにしますた
+        if (hitFlg)//やっぱVelocityでやります
         {
             if (invincible <= 0)//カウントゼロ後にぶっ飛ぶ処理とライフ減少
             {
@@ -306,9 +308,11 @@ public class MovePlayer : MonoBehaviour
                     pos.x = rb2.transform.position.x + 0.8f;
                     pos.y =-0.4f;
                 }
+
+                var knockBackVector= (pos - rb2.transform.position);
                 for (int i = 0; i < 2; i++)
                 {
-                    rb2.transform.position = pos;
+                    rb2.velocity = rb2.velocity + (knockBackVec.normalized * 3);
                 }
                 
 
