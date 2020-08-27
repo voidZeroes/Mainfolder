@@ -154,12 +154,18 @@ public class EnemyMove : MonoBehaviour
             if (type == 1)//地面接触時に跳ね返る動き
             {
                 //target = player.GetComponent<MovePlayer>().GetPlayerPos() - rb2.position;
-                rb2.velocity = new Vector2(0, 0);
-                target.y *= -1;
+                rb2.velocity = new Vector2(0, 0);//静止
+                target.y *= -1;//TargetのYを反転
 
-                if (45 > Vector2.Angle(this.GetComponent<Vector2>(), target) &&
-                    -45 < Vector2.Angle(this.GetComponent<Vector2>(), target))
+                if (30 > Vector2.Angle(this.transform.up, target) &&
+                    -30 < Vector2.Angle(this.transform.up, target))//角度が30度以内ならそのまま上へ
+                {
                     rb2.AddForce((target.normalized) * 200);
+                }
+                else//そうでないときは真上へ
+                {
+                    rb2.AddForce((Vector3.up) * 200);
+                }
             }
             if (type == 2)//カエル用の静止コマンド
             {

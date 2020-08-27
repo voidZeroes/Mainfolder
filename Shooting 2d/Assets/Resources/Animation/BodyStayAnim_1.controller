@@ -9,18 +9,18 @@ AnimatorController:
   m_Name: BodyStayAnim_1
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: RightMove
+  - m_Name: ForwardMove
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: LeftMove
+    m_Controller: {fileID: 0}
+  - m_Name: BackMove
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -65,10 +65,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: LeftMove
+    m_ConditionEvent: BackMove
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: RightMove
+    m_ConditionEvent: ForwardMove
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102012866667836920}
@@ -137,7 +137,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: RightMove
+    m_ConditionEvent: ForwardMove
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102236984479150930}
@@ -162,10 +162,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: LeftMove
+    m_ConditionEvent: BackMove
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: RightMove
+    m_ConditionEvent: ForwardMove
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102221091481146558}
@@ -190,7 +190,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: RightMove
+    m_ConditionEvent: ForwardMove
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102012866667836920}
@@ -215,7 +215,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: LeftMove
+    m_ConditionEvent: BackMove
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102236984479150930}
@@ -240,7 +240,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: LeftMove
+    m_ConditionEvent: BackMove
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102221091481146558}
@@ -383,7 +383,7 @@ AnimatorStateMachine:
     m_Position: {x: 516, y: 12, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102221091481146558}
-    m_Position: {x: 636, y: -216, z: 0}
+    m_Position: {x: 510, y: -130, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102587665543733382}
     m_Position: {x: 360, y: -216, z: 0}
