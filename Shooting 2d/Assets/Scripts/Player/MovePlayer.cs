@@ -93,7 +93,6 @@ public class MovePlayer : MonoBehaviour
             rsY = Input.GetAxis("Vertical2");
         }
 
-        Debug.Log(xMov);
 
         //if(hitFlg)
         //{

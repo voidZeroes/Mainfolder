@@ -15,23 +15,23 @@ public class GateSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(Mathf.Abs(this.transform.position.x - player.transform.position.x));
-        if (Mathf.Abs(this.transform.position.x - player.transform.position.x)>13)
+        Debug.Log(Mathf.Abs(this.transform.position.x - player.transform.position.x));//距離計測
+        if (Mathf.Abs(this.transform.position.x - player.transform.position.x)>13)//遠くなったらゲート閉鎖
         {
-            gateAnim.SetBool("HowOpen", false);
-            this.transform.GetChild(0).GetComponent<BoxCollider2D>().gameObject.SetActive(true);
+            gateAnim.SetBool("HowOpen", false);//閉鎖アニメーション再生
+            this.transform.GetChild(0).GetComponent<BoxCollider2D>().gameObject.SetActive(true);//コリジョン有効か
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (this.tag == "BlueGate")
+        if (this.tag == "BlueGate")//最弱ゲート
         {
-            if (collision.tag == "Bullet")
+            if (collision.tag == "Bullet")//弾が当たったら
               {
 
-                gateAnim.SetBool("HowOpen", true);
-                this.transform.GetChild(0).GetComponent<BoxCollider2D>().gameObject.SetActive(false);
+                gateAnim.SetBool("HowOpen", true);//アニメ再生
+                this.transform.GetChild(0).GetComponent<BoxCollider2D>().gameObject.SetActive(false);//解放。
             }
 
         }

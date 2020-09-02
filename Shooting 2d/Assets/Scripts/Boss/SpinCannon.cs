@@ -32,7 +32,9 @@ public class SpinCannon : MonoBehaviour
 
         Vector3 pos = Camera.main.WorldToScreenPoint(transform.localPosition);
         
-        setRadian = GetAngle(this.transform.localPosition, Target.transform.localPosition);
+        setRadian = GetAngle(this.transform.position, Target.transform.localPosition);
+
+        //radian = GetAngle(this.transform.position, Target.transform.position);
 
         laserCounter += Time.deltaTime;
         if(laserCounter>=laserWait)
@@ -40,19 +42,18 @@ public class SpinCannon : MonoBehaviour
             Laser.GetComponent<ParticleSystem>().Play();
             laserCounter = 0;
         }
-        if (setRadian>radian)
+        if (setRadian>=radian)
         {
-            radian+=3;
+            radian+=0.2f;
         }
-        else
+        else if (setRadian <= radian)
         {
-            radian-=3;
+            radian-=0.2f;
         }
 
         //rota= Quaternion.Euler(0, 0,radian);
 
 
-        radian = GetAngle(this.transform.position, Target.transform.position);
 //        Debug.Log(radian);
         rota = Quaternion.Euler(0, 0, radian);
         this.transform.localRotation = rota;
