@@ -19,7 +19,7 @@ public class Reboot : MonoBehaviour
 
         if(timer<0)
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("Title");
         }
     }
 }

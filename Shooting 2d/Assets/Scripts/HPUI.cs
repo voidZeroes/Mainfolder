@@ -32,9 +32,9 @@ public class HPUI : MonoBehaviour
         tankMaxNum = player.GetComponent<MovePlayer>().SetPlayerMaxLife()/99;
         slider.value = 99;
         tankOldMaxNum = 0;
-        offsetX = energyTank.GetComponent<RectTransform>().sizeDelta.x*(energyTank.GetComponent<RectTransform>().localScale.x/2);
+        offsetX = energyTank.GetComponent<RectTransform>().rect.x*(energyTank.GetComponent<RectTransform>().rect.x/3);
         
-        offsetY = energyTank.GetComponent<RectTransform>().sizeDelta.y ;
+        offsetY = energyTank.GetComponent<RectTransform>().rect.y * (energyTank.GetComponent<RectTransform>().rect.y / 3);
         //ここまでHP関連
 
     }

@@ -6,11 +6,14 @@ public class SpinCannon : MonoBehaviour
 {
     public GameObject Target;//プレイヤーの位置
     public GameObject Laser;
+    public GameObject ShotPoint;
+    public GameObject BulletPrefab;
     Vector3 rawAngre;
     float radian;
     float setRadian;
     Quaternion rota;
-
+    float shotDelay;
+    
     float laserCounter;
     int laserWait;
     
@@ -22,6 +25,7 @@ public class SpinCannon : MonoBehaviour
         laserWait = 5;
         laserCounter = 0;
         rota = this.transform.rotation;
+        shotDelay = 5;
     }
 
     // Update is called once per frame
@@ -36,12 +40,16 @@ public class SpinCannon : MonoBehaviour
 
         //radian = GetAngle(this.transform.position, Target.transform.position);
 
+        //エフェクトレーザーだったが、扱いに困ったため一度廃止
+        /*
         laserCounter += Time.deltaTime;
         if(laserCounter>=laserWait)
         {
             Laser.GetComponent<ParticleSystem>().Play();
             laserCounter = 0;
-        }
+        }        */
+
+        //砲の回転部分
         if (setRadian>=radian)
         {
             radian+=0.2f;
@@ -51,14 +59,20 @@ public class SpinCannon : MonoBehaviour
             radian-=0.2f;
         }
 
-        //rota= Quaternion.Euler(0, 0,radian);
-
-
 //        Debug.Log(radian);
         rota = Quaternion.Euler(0, 0, radian);
         this.transform.localRotation = rota;
         if(radian>360)
         { radian = 0; }
+
+
+        shotDelay -= Time.deltaTime;
+        if (shotDelay <= 0)
+        {
+            var instance = Instantiate(BulletPrefab, ShotPoint.transform.position, this.transform.rotation);
+            shotDelay = 5;
+            
+        }
     }
 
     float GetAngle(Vector2 start, Vector2 target)

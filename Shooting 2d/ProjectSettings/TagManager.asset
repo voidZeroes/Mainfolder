@@ -16,6 +16,7 @@ TagManager:
   - SupplyL
   - Gate
   - BlueGate
+  - Boss
   layers:
   - Default
   - TransparentFX
