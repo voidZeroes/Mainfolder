@@ -8,6 +8,9 @@ public class BossBullet : MonoBehaviour
     Rigidbody2D rb2;
     Vector2 move;
     GameObject Boss;
+    public GameObject Boom;
+    float life;
+
     void Start()
     {
         rb2 = this.GetComponent<Rigidbody2D>();
@@ -26,5 +29,20 @@ public class BossBullet : MonoBehaviour
     private void SetForce(Vector2 force)
     {
         rb2.AddForce(force.normalized*100);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            BoomGen();
+        }
+    }
+
+    void BoomGen()
+    {
+        GameObject instance = (GameObject)Instantiate(Boom, this.transform.position, Quaternion.identity);
+
+        Destroy(this.gameObject);
     }
 }

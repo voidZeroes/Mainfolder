@@ -30,13 +30,18 @@ public class TitleSystem : MonoBehaviour
 
 
         PlsStart.color = CalcAlpha(PlsStart.color);
-        //Start画面遷移処理
-        if(Input.GetButtonDown("Start"))
+
+        if (startFlag && setMaxAlpha)
+        {
+            TitleName.color = CalcAlpha(PlsStart.color);
+        }
+
+         //Start画面遷移処理
+        if (Input.GetButtonDown("Start"))
         {
             startFlag = true;
 
         }
-
         if(startFlag&&setMaxAlpha&&PlsStart.color.a<=0)
         {
             SceneManager.LoadScene("SampleScene");
