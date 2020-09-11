@@ -9,7 +9,7 @@ public class HPUI : MonoBehaviour
    public GameObject energyTank;//タンクプレハブ
     public GameObject UI;//UI本体
    public GameObject tankPos1;//設置位置
-    public GameObject player;
+    GameObject player;
     public Text hpText;
     public Text missleText;
     float offsetX;
@@ -26,6 +26,7 @@ public class HPUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.Find("ShadowBody");
         playerLife = player.GetComponent<MovePlayer>().GetPlayerLife();
         tankFloat = playerLife % 99;
         tankNum = playerLife/99;
@@ -102,6 +103,21 @@ public class HPUI : MonoBehaviour
     private int GetMaxHp()
     {
         return player.GetComponent<MovePlayer>().GetPlayerMaxLife();
+    }
+
+
+    public void Init()//Scene遷移したときに見失うからそれ対策
+    {
+        player = GameObject.Find("ShadowBody");
+        playerLife = player.GetComponent<MovePlayer>().GetPlayerLife();
+        tankFloat = playerLife % 99;
+        tankNum = playerLife / 99;
+        tankMaxNum = player.GetComponent<MovePlayer>().GetPlayerMaxLife() / 99;
+        slider.value = 99;
+        tankOldMaxNum = 0;
+        offsetX = energyTank.GetComponent<RectTransform>().rect.x * (energyTank.GetComponent<RectTransform>().rect.x / 3);
+
+        offsetY = energyTank.GetComponent<RectTransform>().rect.y * (energyTank.GetComponent<RectTransform>().rect.y / 3);
     }
 
 }

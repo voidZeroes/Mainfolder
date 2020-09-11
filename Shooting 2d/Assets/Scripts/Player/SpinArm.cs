@@ -44,7 +44,7 @@ public class SpinArm : MonoBehaviour
         wheelSpinTest = 0;
         rateCont = 0;
         rotaCheck = 0;
-        radian = 285;
+        radian = 290;
 
         forLR=true;
         oldLR = true;
@@ -87,8 +87,8 @@ public class SpinArm : MonoBehaviour
 
         bulletType +=(int) bulletTbuf;//弾変更　ある数値以上になったら戻すようにしてやればよさそう
         if (bulletType < 1)
-        { bulletType = 5; }
-        if (bulletType > 5) bulletType = 1;
+        { bulletType = 2; }
+        if (bulletType > 2) bulletType = 1;
 
 
 

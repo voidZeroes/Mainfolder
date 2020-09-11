@@ -12,9 +12,12 @@ public class Supply : MonoBehaviour
     const int supMisM = 5;
     const int supMisL = 10;
 
-    public GameObject player;
+    GameObject player;
 
-
+    private void Start()
+    {
+        player = GameObject.Find("ShadowBody");
+    }
 
 
     public int GetSupply(int type/*0=ライフ1=味噌*/, int size/*0~2*/)

@@ -326,7 +326,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 4813359817814651771}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 259b8c5d22b8b8141bd439395a1eda0a, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -357,6 +357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe28b2b20e4c6ba42a186aa6cce4fa72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myPhysis: {fileID: 0}
   inviView: 0
   rsX: 0
   rsY: 0

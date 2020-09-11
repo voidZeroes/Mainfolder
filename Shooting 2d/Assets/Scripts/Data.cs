@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Data : MonoBehaviour
 {
-    Rigidbody2D playerRb2;
-    int playerMaxMissile;
-    int playerMissile;
-    int playerMaxLife;
-    int playerLife;
+    public Rigidbody2D playerRb2;
+    public int playerMaxMissile;
+    public int playerMissile;
+    public int playerMaxLife;
+    public int playerLife;
 
     bool SceneChangeFlag;
     int gatePairNumber;
@@ -17,7 +17,7 @@ public class Data : MonoBehaviour
     {
         DontDestroyOnLoad(this);
         gatePairNumber = 9999999;
-        SceneChangeFlag = false;
+
     }
 
     // Update is called once per frame
@@ -28,6 +28,7 @@ public class Data : MonoBehaviour
 
     public void SavePlayerData(GameObject player)
     {
+        playerRb2 = player.GetComponent<MovePlayer>().GetRigidbody2D();
         playerMaxMissile = player.GetComponent<MovePlayer>().GetMissileAmmoMax();
         playerMissile = player.GetComponent<MovePlayer>().GetMissileAmmo();
         playerMaxLife = player.GetComponent<MovePlayer>().GetPlayerMaxLife();

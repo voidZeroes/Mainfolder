@@ -32,7 +32,7 @@ public class SpinCannon : MonoBehaviour
     [System.Obsolete]
     void Update()
     {
-
+        Target = GameObject.Find("ShadowBody");
 
         Vector3 pos = Camera.main.WorldToScreenPoint(transform.localPosition);
         

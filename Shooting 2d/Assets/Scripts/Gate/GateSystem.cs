@@ -8,13 +8,16 @@ public class GateSystem : MonoBehaviour
     GameObject player;
     AudioSource gateSE;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         gateAnim = this.GetComponent<Animator>();
-        player = GameObject.Find("ShadowBody");
         gateSE = this.GetComponent<AudioSource>();
     }
 
+    private void Start()
+    {
+        player = GameObject.Find("ShadowBody");
+    }
     // Update is called once per frame
     void Update()
     {
@@ -29,14 +32,22 @@ public class GateSystem : MonoBehaviour
     {
         if (this.tag == "BlueGate")//最弱ゲート
         {
-            if (collision.tag == "Bullet")//弾が当たったら
+            if (collision.tag == "Bullet"|| collision.tag == "Missile")//弾が当たったら
               {
+                collision.GetComponent<BulletCnt>().AwakeDestroyFlg();
                 gateSE.Play();
                 gateAnim.SetBool("HowOpen", true);//アニメ再生
                 this.transform.GetChild(0).GetComponent<BoxCollider2D>().gameObject.SetActive(false);//解放。
             }
 
         }
+    }
+
+    public void GateOpen()
+    {
+        gateSE.Play();
+        gateAnim.SetBool("HowOpen", true);//アニメ再生
+        this.transform.GetChild(0).GetComponent<BoxCollider2D>().gameObject.SetActive(false);//解放。
     }
 
 }

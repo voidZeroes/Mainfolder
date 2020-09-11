@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ShaftScene.unity
     guid: 126b06fc9676f9543af023bded5e69d8
   - enabled: 1
+    path: Assets/Scenes/BossArea.unity
+    guid: e69045960a96a2d40bbad274f0658d0e
+  - enabled: 1
     path: Assets/Scenes/TestEnd.unity
     guid: 100923e4fba5cba4098743aa08daee90
   - enabled: 0

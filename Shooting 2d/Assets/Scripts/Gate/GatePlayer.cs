@@ -12,7 +12,7 @@ public class GatePlayer : MonoBehaviour
     private void Start()
     {
         Player = GameObject.Find("ShadowBody");
-        dataBox = GameObject.Find("DataCompornent");
+        dataBox = GameObject.Find("DataBox");
     }
 
     // Update is called once per frame
@@ -49,7 +49,17 @@ public class GatePlayer : MonoBehaviour
                     break;
 
             case 1:
+                if (SceneManager.GetActiveScene().name == "ShaftScene")
+                {
+                    SceneManager.LoadScene("BossArea");
+                }
+                else if (SceneManager.GetActiveScene().name == "BossArea")
+                {
+                    SceneManager.LoadScene("ShaftScene");
+                }
+                dataBox.GetComponent<Data>().SetScneneChangeFlag(true);
                 break;
+
         
         }
     }

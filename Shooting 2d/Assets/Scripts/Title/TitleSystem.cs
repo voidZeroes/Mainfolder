@@ -12,6 +12,7 @@ public class TitleSystem : MonoBehaviour
     float sparkTime;
     bool startFlag;
     bool setMaxAlpha;
+    AudioSource push;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class TitleSystem : MonoBehaviour
         sparkTime = 0.5f;
         startFlag=false;
         setMaxAlpha = false;
+        push = this.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -39,6 +41,7 @@ public class TitleSystem : MonoBehaviour
         if (Input.GetButtonDown("Start"))
         {
             startFlag = true;
+            push.Play();
 
         }
         if(startFlag&&setMaxAlpha&&PlsStart.color.a<=0)

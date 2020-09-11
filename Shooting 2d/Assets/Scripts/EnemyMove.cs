@@ -14,7 +14,7 @@ public class EnemyMove : MonoBehaviour
     Rigidbody2D rb2;
     Vector2 target;
     GameObject player;
-
+    public GameObject Supply;
 
     static int flogHP = 20;
     float flogJumpWaitTime;
@@ -154,7 +154,8 @@ public class EnemyMove : MonoBehaviour
 
                 if (hp <= 0)
             {
-                Destroy(this.gameObject, 0.5f);
+                Destroy(this.gameObject);
+                var instance = Instantiate(Supply, this.transform.position, Quaternion.identity);
             }
         }
 

@@ -144,5 +144,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
+  Supply: {fileID: 7893710680713511817, guid: d3f22f5f188be654b845fb96ebb77ba7, type: 3}
   flogJumpSprite: {fileID: 21300000, guid: bd41b0ff5805b1e4982074c67d53ddcc, type: 3}
   flogLandingSprite: {fileID: 21300000, guid: d78bed7c20b215c45993923539a17322, type: 3}

@@ -10,10 +10,12 @@ public class HowToScene : MonoBehaviour
     public GameObject fadepanel;
     Color col;
     bool startFlag;
+    AudioSource push;
     void Start()
     {
         col.a = 1;
         startFlag = false;
+        push = this.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -30,6 +32,7 @@ public class HowToScene : MonoBehaviour
     if(Input.GetButtonDown("Start"))
         {
             startFlag = true;
+            push.Play();
         }
 
     if(startFlag&&col.a>=1)

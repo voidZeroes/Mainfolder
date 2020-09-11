@@ -205,7 +205,7 @@ public class MovePlayer : MonoBehaviour
 
     private void MovingUnit()
     {
-        if (yMov != 0 && !jump)//ジャンプ処理　ボタン式にするべきだろう。今のままだと誤爆する
+        if (Input.GetButtonDown("Jump") && !jump)//ジャンプ処理　ボタン式にするべきだろう。した。
         { rb2.velocity = new Vector2(rb2.velocity.x, 10);
             jump = true;
         }
@@ -213,6 +213,7 @@ public class MovePlayer : MonoBehaviour
 
         if (Mathf.Abs(xMov) > 0)//入力中
         {
+            rb2.sharedMaterial.friction = 0;
             if (xMov > 0.8)
             {
                 lrSelector = 1;
@@ -236,13 +237,14 @@ public class MovePlayer : MonoBehaviour
         }
         else//入力してないなら止まれ
         {
-
+                    rb2.sharedMaterial.friction = 3f;
             lrSelector = 0;
             if (jump == false || (hitFlg == true))
             {
 //疑似逆入力のつもりだったが、PhysisMaterialの摩擦で止めることに。
                 if (Mathf.Abs(rb2.velocity.x) < 0.5f)//速度が0.1以下なら停止
                 {
+
                     rb2.velocity = new Vector2(0, rb2.velocity.y);
                 }
             }
