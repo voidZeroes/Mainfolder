@@ -117,7 +117,7 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 0
+    m_DefaultBool: 1
     m_Controller: {fileID: 0}
   - m_Name: HowClose
     m_Type: 4
@@ -155,9 +155,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.060962036
-  m_TransitionOffset: 0.047709282
-  m_ExitTime: 0.042699583
+  m_TransitionDuration: 0.0012657326
+  m_TransitionOffset: 0
+  m_ExitTime: 1.9123328e-10
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0

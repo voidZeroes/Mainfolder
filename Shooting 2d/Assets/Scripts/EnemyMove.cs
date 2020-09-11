@@ -123,12 +123,14 @@ public class EnemyMove : MonoBehaviour
         Vector3 scale = new Vector3(1, 1, 1);
         if (player.transform.position.x < this.transform.position.x)
         {
-            if (!jumpFlg && flogJumpWaitCnt > flogJumpWaitTime)
+            if (!jumpFlg && flogJumpWaitCnt > flogJumpWaitTime)//よし飛べェ！
             {
                 scale.x = -1;
                 rb2.AddForce(new Vector2(120 * scale.x, 300));
+                rb2.gravityScale = 1;
                 jumpFlg = true;
             }
+
             flogJumpWaitCnt += Time.deltaTime;
         }
     }
@@ -138,12 +140,19 @@ public class EnemyMove : MonoBehaviour
         if (collision.gameObject.tag == "Bullet" || collision.gameObject.tag == "Missile"
     || collision.gameObject.tag == "Boom")
         {
-            hp--;
+            
             if (collision.gameObject.tag != "Boom")//爆発以外(弾直撃)なら
             {
                 collision.gameObject.GetComponent<BulletCnt>().AwakeDestroyFlg();//弾消し
+                hp -=GameObject.Find("EventSystem").GetComponent<BulletDamage>().GetDamage(collision.gameObject.tag) ;//ダメージ
             }
-            if (hp <= 0)
+
+            if (collision.gameObject.tag == "Boom")//爆発以外(弾直撃)なら
+            {
+                hp -= 3;
+            }
+
+                if (hp <= 0)
             {
                 Destroy(this.gameObject, 0.5f);
             }
@@ -170,7 +179,9 @@ public class EnemyMove : MonoBehaviour
             if (type == 2)//カエル用の静止コマンド
             {
                 rb2.velocity.Scale(new Vector2(0, 0));
+                rb2.velocity = new Vector2(0, 0);
                 jumpFlg = false;
+                rb2.gravityScale = 0;
                 flogJumpWaitCnt = 0;
             }
 

@@ -12,6 +12,8 @@ public class SpinArm : MonoBehaviour
     GameObject missilePrefab;//ミサイルプレファブ
     GameObject instance;
     Quaternion rota;//回転量
+    AudioSource shotSE;
+
     private int bulletType= 1;//現在利用可能な弾。
     public float wheelSpinTest;
     int rateCont;//射撃レート管理
@@ -37,11 +39,12 @@ public class SpinArm : MonoBehaviour
         bulletGen = GameObject.Find("BulletGen");
         bulletPrefab = (GameObject)Resources.Load ("Prefab/Bullet");
         missilePrefab = (GameObject)Resources.Load("Prefab/Missile");
+        shotSE = this.gameObject.GetComponent<AudioSource>();
         // ;
         wheelSpinTest = 0;
         rateCont = 0;
         rotaCheck = 0;
-        radian = 90;
+        radian = 285;
 
         forLR=true;
         oldLR = true;
@@ -139,6 +142,7 @@ public class SpinArm : MonoBehaviour
                         instance = (GameObject)Instantiate(bulletPrefab, bulletGen.transform.position, rota);//弾丸
 
                         rateCont = GetComponent<Rate_of_Fire>().SetWeaponRate(bulletType);
+                        shotSE.Play();
                         
                     }
                     else { break; }
@@ -146,10 +150,10 @@ public class SpinArm : MonoBehaviour
                 case 2://味噌
                     if (rateCont <= 0)
                     {
-                        if (GetComponent<MovePlayer>().SetMissileAmmo() > 0)
+                        if (GetComponent<MovePlayer>().GetMissileAmmo() > 0)
                         {
                             instance = (GameObject)Instantiate(missilePrefab, bulletGen.transform.position, rota);//味噌
-                            instance.GetComponent<BulletCnt>().GetBulletType(bulletType);
+                            instance.GetComponent<BulletCnt>().SetBulletType(bulletType);
                             rateCont = GetComponent<Rate_of_Fire>().SetWeaponRate(bulletType);
                             GetComponent<MovePlayer>().MissileAmmoMinus(1);
                         }

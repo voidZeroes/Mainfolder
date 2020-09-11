@@ -26,10 +26,10 @@ public class HPUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerLife = player.GetComponent<MovePlayer>().SetPlayerLife();
+        playerLife = player.GetComponent<MovePlayer>().GetPlayerLife();
         tankFloat = playerLife % 99;
         tankNum = playerLife/99;
-        tankMaxNum = player.GetComponent<MovePlayer>().SetPlayerMaxLife()/99;
+        tankMaxNum = player.GetComponent<MovePlayer>().GetPlayerMaxLife()/99;
         slider.value = 99;
         tankOldMaxNum = 0;
         offsetX = energyTank.GetComponent<RectTransform>().rect.x*(energyTank.GetComponent<RectTransform>().rect.x/3);
@@ -42,6 +42,7 @@ public class HPUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        tankMaxNum = player.GetComponent<MovePlayer>().GetPlayerMaxLife() / 99;
         playerLife = GetHp();//毎回Player側のHPを取得
 
         tankFloat = playerLife % 99;//ゲージ内部の量
@@ -50,7 +51,7 @@ public class HPUI : MonoBehaviour
         slider.value = tankFloat;
         hpText.text = slider.value.ToString();//量をテキストに
 
-        missleText.text = player.GetComponent<MovePlayer>().SetMissileAmmo().ToString();
+        missleText.text = player.GetComponent<MovePlayer>().GetMissileAmmo().ToString();
 
         if (tankOldMaxNum < tankMaxNum)
         {
@@ -64,7 +65,7 @@ public class HPUI : MonoBehaviour
                     pos.x -= offsetX*10;
                     pos.y -=offsetY  ;
                 }
-                Instantiate(energyTank, pos, Quaternion.identity, UI.transform.GetChild(1).transform);
+                var instans=(GameObject)Instantiate(energyTank, pos, Quaternion.identity, UI.transform.GetChild(1).transform);
                 
             }
             tankOldMaxNum = tankMaxNum;
@@ -96,11 +97,11 @@ public class HPUI : MonoBehaviour
 
     private int GetHp()
     {
-        return player.GetComponent<MovePlayer>().SetPlayerLife();
+        return player.GetComponent<MovePlayer>().GetPlayerLife();
     }
     private int GetMaxHp()
     {
-        return player.GetComponent<MovePlayer>().SetPlayerMaxLife();
+        return player.GetComponent<MovePlayer>().GetPlayerMaxLife();
     }
 
 }

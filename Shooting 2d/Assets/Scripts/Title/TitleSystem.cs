@@ -12,7 +12,6 @@ public class TitleSystem : MonoBehaviour
     float sparkTime;
     bool startFlag;
     bool setMaxAlpha;
-    static float fadeOutSpeed = 0.005f;
 
     // Start is called before the first frame update
     void Start()
@@ -44,13 +43,13 @@ public class TitleSystem : MonoBehaviour
         }
         if(startFlag&&setMaxAlpha&&PlsStart.color.a<=0)
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("HowToPlay");
         }
     }
 
     private Color CalcAlpha(Color color)//PleaseStartの点滅処理
     {
-        if (startFlag&&sparkTime>=0)
+        if (startFlag&&sparkTime>=0)//押した瞬間の点滅
         {
             time += Time.deltaTime * 100.0f * 1;
             color.a = Mathf.Sin(time) * 0.5f + 0.5f;
@@ -64,9 +63,9 @@ public class TitleSystem : MonoBehaviour
                 return color;
             }
 
-            color.a -= fadeOutSpeed;
+            color.a -= Time.deltaTime;
         }
-        else
+        else//通常点灯
         {
             time += Time.deltaTime * 3.0f * 1;
             color.a = Mathf.Sin(time) * 0.5f + 0.5f;

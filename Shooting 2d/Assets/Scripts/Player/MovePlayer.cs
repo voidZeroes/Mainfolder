@@ -123,6 +123,7 @@ public class MovePlayer : MonoBehaviour
         //   this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, -50.22003f);
         xMov = yMov = rsX = rsY =0;
 
+
     }
 
     public Vector2 GetPlayerVel()
@@ -157,6 +158,7 @@ public class MovePlayer : MonoBehaviour
         {
             hitFlg = true;
             enemyLocal = transform.InverseTransformPoint(collision.transform.position);
+
             knockBackVec = new Vector2(this.transform.position.x - enemyLocal.x, this.transform.position.y - enemyLocal.y- 0.3f);//ノックバック方向だと思う
         }
 
@@ -299,19 +301,19 @@ public class MovePlayer : MonoBehaviour
                 if (knockBackVec.x < 0)//←//Y軸を固定方向への吹き飛びに再定義
                 {
                     pos.x = rb2.transform.position.x - 0.8f;
-                    pos.y = - 0.4f;
+                    pos.y = - 1.4f;
 
                 }
                 else if (knockBackVec.x > 0)//→
                 {
                     pos.x = rb2.transform.position.x + 0.8f;
-                    pos.y =-0.4f;
+                    pos.y =-1.4f;
                 }
 
                 var knockBackVector= (pos - rb2.transform.position);
                 for (int i = 0; i < 2; i++)
                 {
-                    rb2.velocity = rb2.velocity + (knockBackVec.normalized * 3);
+                    rb2.velocity =(knockBackVec.normalized * 10);
                 }
                 
 
@@ -327,16 +329,25 @@ public class MovePlayer : MonoBehaviour
         return mouseMode;
     }
 
-    public int SetPlayerLife()
+    public int GetPlayerLife()
     {
         return (int)life;
     }
-    public int SetPlayerMaxLife()
+    public int GetPlayerMaxLife()
     {
         return (int)maxLife;
     }
+    
+    public void SetPlayerMaxLife(int max)
+    {
+        maxLife = max;
+    }
+    public void SetPlayerLife(int life)
+    {
+        this.life = life;
+    }
 
-    public int SetMissileAmmo()
+    public int GetMissileAmmo()
     {
         return missile;
     }
@@ -350,4 +361,26 @@ public class MovePlayer : MonoBehaviour
         missile += plus;
 
     }
+    
+    //これより下はセーブ、遷移用
+    public Rigidbody2D GetRigidbody2D()
+    {
+        return rb2;
+    }
+    public int GetMissileAmmoMax()
+    {
+        return missileMax;
+    }
+    
+    public void LoadPlayerCharactor(Rigidbody2D lRb2,int life,int maxLife,int maxMissile,int missile)
+    {
+        rb2 = lRb2;
+        this.life = life;
+        this.maxLife = maxLife;
+        missileMax = maxMissile;
+        this.missile = missile;
+
+
+    }
+
 }
